@@ -1,0 +1,39 @@
+{
+  "season": 2026,
+  "updated_at": "2026-04-25T14:09:28.564Z",
+  "lafc": {
+    "team_id": "18966",
+    "team_name": "LAFC",
+    "team_short_name": "LAFC",
+    "team_abbr": "LAFC",
+    "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+    "venue": "BMO Stadium",
+    "color": "#000000",
+    "rank": 3,
+    "points": 17,
+    "played": 9,
+    "wins": 5,
+    "draws": 2,
+    "losses": 2,
+    "goals_for": 16,
+    "goals_against": 6,
+    "goal_diff": 10,
+    "goal_diff_display": "+10"
+  },
+  "son": {
+    "player_name": "Heung-Min Son",
+    "player_name_ko": "손흥민",
+    "nationality": "South Korea",
+    "nationality_ko": "대한민국",
+    "team_name": "Los Angeles FC",
+    "team_short_name": "LAFC",
+    "position": "Forward",
+    "position_ko": "공격수",
+    "jersey": "7",
+    "age": 33,
+    "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/178194.png",
+    "transfer_note": "2025년 여름 토트넘에서 LAFC로 이적",
+    "transfer_note_en": "Joined LAFC from Tottenham Hotspur in summer 2025",
+    "season": 2026
+  }
+}
