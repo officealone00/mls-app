@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-05-02T02:35:34.564Z",
+  "updated_at": "2026-05-03T02:46:43.379Z",
   "eastern": [
     {
       "rank": 1,
@@ -94,15 +94,15 @@
       "team_short_name": "Toronto",
       "team_abbr": "TOR",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
-      "played": 10,
+      "played": 11,
       "wins": 3,
-      "draws": 4,
+      "draws": 5,
       "losses": 3,
-      "goals_for": 17,
-      "goals_against": 19,
+      "goals_for": 18,
+      "goals_against": 20,
       "goal_diff": -2,
       "goal_diff_display": "-2",
-      "points": 13
+      "points": 14
     },
     {
       "rank": 7,
@@ -266,15 +266,15 @@
       "team_short_name": "San Jose",
       "team_abbr": "SJ",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-      "played": 10,
+      "played": 11,
       "wins": 9,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
-      "goals_for": 25,
-      "goals_against": 6,
+      "goals_for": 26,
+      "goals_against": 7,
       "goal_diff": 19,
       "goal_diff_display": "+19",
-      "points": 27
+      "points": 28
     },
     {
       "rank": 2,
@@ -317,18 +317,35 @@
       "team_short_name": "Seattle",
       "team_abbr": "SEA",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "played": 8,
+      "played": 9,
       "wins": 6,
-      "draws": 1,
+      "draws": 2,
       "losses": 1,
-      "goals_for": 12,
-      "goals_against": 4,
+      "goals_for": 13,
+      "goals_against": 5,
       "goal_diff": 8,
       "goal_diff_display": "+8",
-      "points": 19
+      "points": 20
     },
     {
       "rank": 5,
+      "team_id": "4771",
+      "team_name": "Real Salt Lake",
+      "team_short_name": "Salt Lake",
+      "team_abbr": "RSL",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+      "played": 10,
+      "wins": 6,
+      "draws": 1,
+      "losses": 3,
+      "goals_for": 19,
+      "goals_against": 14,
+      "goal_diff": 5,
+      "goal_diff_display": "+5",
+      "points": 19
+    },
+    {
+      "rank": 6,
       "team_id": "17362",
       "team_name": "Minnesota United FC",
       "team_short_name": "Minnesota",
@@ -343,23 +360,6 @@
       "goal_diff": -3,
       "goal_diff_display": "-3",
       "points": 17
-    },
-    {
-      "rank": 6,
-      "team_id": "4771",
-      "team_name": "Real Salt Lake",
-      "team_short_name": "Salt Lake",
-      "team_abbr": "RSL",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-      "played": 9,
-      "wins": 5,
-      "draws": 1,
-      "losses": 3,
-      "goals_for": 17,
-      "goals_against": 14,
-      "goal_diff": 3,
-      "goal_diff_display": "+3",
-      "points": 16
     },
     {
       "rank": 7,
@@ -453,14 +453,14 @@
       "team_short_name": "Portland",
       "team_abbr": "POR",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
-      "played": 9,
+      "played": 10,
       "wins": 3,
       "draws": 1,
-      "losses": 5,
+      "losses": 6,
       "goals_for": 13,
-      "goals_against": 19,
-      "goal_diff": -6,
-      "goal_diff_display": "-6",
+      "goals_against": 21,
+      "goal_diff": -8,
+      "goal_diff_display": "-8",
       "points": 10
     },
     {
@@ -504,15 +504,15 @@
       "team_short_name": "Kansas City",
       "team_abbr": "SKC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
-      "played": 9,
+      "played": 10,
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 7,
-      "goals_for": 7,
-      "goals_against": 25,
+      "goals_for": 8,
+      "goals_against": 26,
       "goal_diff": -18,
       "goal_diff_display": "-18",
-      "points": 4
+      "points": 5
     }
   ]
 }
