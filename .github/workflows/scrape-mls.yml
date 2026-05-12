@@ -22,8 +22,6 @@ jobs:
           node-version: '20'
 
       - name: Run scraper
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           cd scraper
           node scrape.js

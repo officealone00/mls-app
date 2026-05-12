@@ -1,7 +1,7 @@
 {
   "name": "mls-scraper",
-  "version": "1.0.0",
-  "description": "MLS 순위 앱 데이터 스크래퍼 (API-Football)",
+  "version": "3.0.0",
+  "description": "MLS 순위 앱 데이터 스크래퍼 (ESPN API): standings + recent_form + son stats + scorers + schedule",
   "main": "scrape.js",
   "scripts": {
     "scrape": "node scrape.js"
