@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-05-11T02:58:10.885Z",
+  "updated_at": "2026-05-12T02:50:09.054Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -9,16 +9,16 @@
     "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
     "venue": "BMO Stadium",
     "color": "#000000",
-    "rank": 3,
+    "rank": 4,
     "points": 21,
-    "played": 11,
+    "played": 12,
     "wins": 6,
     "draws": 3,
-    "losses": 2,
-    "goals_for": 19,
-    "goals_against": 8,
-    "goal_diff": 11,
-    "goal_diff_display": "+11"
+    "losses": 3,
+    "goals_for": 20,
+    "goals_against": 12,
+    "goal_diff": 8,
+    "goal_diff_display": "+8"
   },
   "son": {
     "player_name": "Heung-Min Son",

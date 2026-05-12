@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-05-11T02:58:10.796Z",
+  "updated_at": "2026-05-12T02:50:08.995Z",
   "eastern": [
     {
       "rank": 1,
@@ -295,23 +295,6 @@
     },
     {
       "rank": 3,
-      "team_id": "18966",
-      "team_name": "LAFC",
-      "team_short_name": "LAFC",
-      "team_abbr": "LAFC",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-      "played": 11,
-      "wins": 6,
-      "draws": 3,
-      "losses": 2,
-      "goals_for": 19,
-      "goals_against": 8,
-      "goal_diff": 11,
-      "goal_diff_display": "+11",
-      "points": 21
-    },
-    {
-      "rank": 4,
       "team_id": "9726",
       "team_name": "Seattle Sounders FC",
       "team_short_name": "Seattle",
@@ -328,21 +311,38 @@
       "points": 21
     },
     {
+      "rank": 4,
+      "team_id": "18966",
+      "team_name": "LAFC",
+      "team_short_name": "LAFC",
+      "team_abbr": "LAFC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+      "played": 12,
+      "wins": 6,
+      "draws": 3,
+      "losses": 3,
+      "goals_for": 20,
+      "goals_against": 12,
+      "goal_diff": 8,
+      "goal_diff_display": "+8",
+      "points": 21
+    },
+    {
       "rank": 5,
       "team_id": "17362",
       "team_name": "Minnesota United FC",
       "team_short_name": "Minnesota",
       "team_abbr": "MIN",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
-      "played": 11,
+      "played": 12,
       "wins": 6,
-      "draws": 2,
+      "draws": 3,
       "losses": 3,
-      "goals_for": 14,
-      "goals_against": 16,
+      "goals_for": 16,
+      "goals_against": 18,
       "goal_diff": -2,
       "goal_diff_display": "-2",
-      "points": 20
+      "points": 21
     },
     {
       "rank": 6,
@@ -380,6 +380,23 @@
     },
     {
       "rank": 8,
+      "team_id": "6077",
+      "team_name": "Houston Dynamo FC",
+      "team_short_name": "Houston",
+      "team_abbr": "HOU",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "played": 11,
+      "wins": 6,
+      "draws": 0,
+      "losses": 5,
+      "goals_for": 17,
+      "goals_against": 19,
+      "goal_diff": -2,
+      "goal_diff_display": "-2",
+      "points": 18
+    },
+    {
+      "rank": 9,
       "team_id": "187",
       "team_name": "LA Galaxy",
       "team_short_name": "LA Galaxy",
@@ -396,24 +413,24 @@
       "points": 16
     },
     {
-      "rank": 9,
-      "team_id": "6077",
-      "team_name": "Houston Dynamo FC",
-      "team_short_name": "Houston",
-      "team_abbr": "HOU",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
-      "played": 10,
-      "wins": 5,
-      "draws": 0,
-      "losses": 5,
-      "goals_for": 13,
-      "goals_against": 18,
-      "goal_diff": -5,
-      "goal_diff_display": "-5",
-      "points": 15
+      "rank": 10,
+      "team_id": "20906",
+      "team_name": "Austin FC",
+      "team_short_name": "Austin",
+      "team_abbr": "ATX",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+      "played": 12,
+      "wins": 3,
+      "draws": 5,
+      "losses": 4,
+      "goals_for": 18,
+      "goals_against": 21,
+      "goal_diff": -3,
+      "goal_diff_display": "-3",
+      "points": 14
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team_id": "184",
       "team_name": "Colorado Rapids",
       "team_short_name": "Colorado",
@@ -430,7 +447,7 @@
       "points": 13
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team_id": "9723",
       "team_name": "Portland Timbers",
       "team_short_name": "Portland",
@@ -447,7 +464,7 @@
       "points": 13
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team_id": "22529",
       "team_name": "San Diego FC",
       "team_short_name": "San Diego",
@@ -461,23 +478,6 @@
       "goals_against": 20,
       "goal_diff": 0,
       "goal_diff_display": "0",
-      "points": 13
-    },
-    {
-      "rank": 13,
-      "team_id": "20906",
-      "team_name": "Austin FC",
-      "team_short_name": "Austin",
-      "team_abbr": "ATX",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
-      "played": 11,
-      "wins": 3,
-      "draws": 4,
-      "losses": 4,
-      "goals_for": 16,
-      "goals_against": 19,
-      "goal_diff": -3,
-      "goal_diff_display": "-3",
       "points": 13
     },
     {
