@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-05-12T02:50:09.054Z",
+  "updated_at": "2026-05-13T02:54:46.650Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -18,7 +18,8 @@
     "goals_for": 20,
     "goals_against": 12,
     "goal_diff": 8,
-    "goal_diff_display": "+8"
+    "goal_diff_display": "+8",
+    "recent_form": []
   },
   "son": {
     "player_name": "Heung-Min Son",
@@ -34,6 +35,43 @@
     "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/178194.png",
     "transfer_note": "2025년 여름 토트넘에서 LAFC로 이적",
     "transfer_note_en": "Joined LAFC from Tottenham Hotspur in summer 2025",
-    "season": 2026
-  }
+    "season": 2026,
+    "appearances": null,
+    "goals": null,
+    "assists": null,
+    "shots": null,
+    "shots_on_target": null,
+    "minutes": null,
+    "yellow_cards": null,
+    "red_cards": null,
+    "goals_per_match": null,
+    "league_goal_rank": null,
+    "league_assist_rank": null
+  },
+  "last_match": {
+    "match_id": "761614",
+    "date": "2026-05-11T01:00Z",
+    "date_kst": "2026-05-11T10:00:00.000Z",
+    "kst_display": "5월 11일 (월) 오전 10:00",
+    "competition": "MLS Regular Season",
+    "round": "",
+    "home": true,
+    "opponent_id": "6077",
+    "opponent_name": "Houston Dynamo FC",
+    "opponent_short": "Houston",
+    "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+    "home_score": 0,
+    "away_score": 0,
+    "result": null,
+    "venue": "BMO Stadium",
+    "son_played": false,
+    "son_minutes": 0,
+    "son_goals": 0,
+    "son_assists": 0,
+    "son_shots": 0,
+    "son_rating": null,
+    "son_man_of_the_match": false,
+    "summary": ""
+  },
+  "next_match": null
 }
