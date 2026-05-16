@@ -438,26 +438,31 @@ export const api = {
       return FALLBACK_KOREANS;
     }
     // 시즌 스탯이 전부 0인 선수는 fallback에서 같은 player_id 또는 이름 매칭으로 보충
+    // 한글 이름이 비어있어도 fallback에서 매칭해서 채움
     const enrichedPlayers = data.players.map((p) => {
-      const hasStats =
-        (p.appearances ?? 0) > 0 || (p.goals ?? 0) > 0 || (p.assists ?? 0) > 0;
-      if (hasStats) return p;
       const fb = FALLBACK_KOREANS.players.find(
         (f) =>
           f.player_id === p.player_id ||
-          f.player_name_ko === p.player_name_ko ||
+          (f.player_name_ko && f.player_name_ko === p.player_name_ko) ||
           f.player_name === p.player_name
       );
-      if (!fb) return p;
-      return {
-        ...p,
-        appearances: fb.appearances,
-        goals: fb.goals,
-        assists: fb.assists,
-        shots: fb.shots,
-        shots_on_target: fb.shots_on_target,
-        minutes: fb.minutes,
-      };
+      const hasStats =
+        (p.appearances ?? 0) > 0 || (p.goals ?? 0) > 0 || (p.assists ?? 0) > 0;
+      const enriched = { ...p };
+      // 한글 이름 보충
+      if (!enriched.player_name_ko && fb?.player_name_ko) {
+        enriched.player_name_ko = fb.player_name_ko;
+      }
+      // 스탯 보충
+      if (!hasStats && fb) {
+        enriched.appearances = fb.appearances;
+        enriched.goals = fb.goals;
+        enriched.assists = fb.assists;
+        enriched.shots = fb.shots;
+        enriched.shots_on_target = fb.shots_on_target;
+        enriched.minutes = fb.minutes;
+      }
+      return enriched;
     });
     return { ...data, players: enrichedPlayers };
   },

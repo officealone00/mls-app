@@ -533,7 +533,7 @@ export default function SonPage() {
                               className="text-[13px] font-extrabold"
                               style={{ color: teamColor }}
                             >
-                              {p.player_name_ko}
+                              {p.player_name_ko || p.player_name}
                             </p>
                             <span
                               className="text-[10px] font-bold px-1.5 py-0.5 rounded text-white"
@@ -542,13 +542,13 @@ export default function SonPage() {
                               #{p.jersey}
                             </span>
                             <span className="text-[10px] font-bold text-toss-gray-600">
-                              {p.position === 'F'
+                              {p.position === 'F' || /^forward/i.test(p.position)
                                 ? '공격수'
-                                : p.position === 'M'
+                                : p.position === 'M' || /^midfielder/i.test(p.position)
                                 ? '미드필더'
-                                : p.position === 'D'
+                                : p.position === 'D' || /^defender/i.test(p.position)
                                 ? '수비수'
-                                : p.position === 'G'
+                                : p.position === 'G' || /^goal/i.test(p.position)
                                 ? '골키퍼'
                                 : p.position}
                             </span>

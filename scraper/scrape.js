@@ -477,6 +477,10 @@ async function findKoreanPlayersAndSon(allTeams) {
             /jeong[- ]?sang[- ]?bin|sang[- ]?bin[- ]?jeong/i.test(displayName) ? '정상빈' :
             /paik[- ]?seung[- ]?ho/i.test(displayName) ? '백승호' :
             /hwang[- ]?in[- ]?beom/i.test(displayName) ? '황인범' :
+            /kim[- ]?kee[- ]?hee|kee[- ]?hee[- ]?kim/i.test(displayName) ? '김기희' :
+            /cho[- ]?young[- ]?wook|young[- ]?wook[- ]?cho/i.test(displayName) ? '조영욱' :
+            /hwang[- ]?ui[- ]?jo/i.test(displayName) ? '황의조' :
+            /lee[- ]?kang[- ]?in/i.test(displayName) ? '이강인' :
             '';
 
           koreans.push({
