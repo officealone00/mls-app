@@ -394,6 +394,20 @@ export const api = {
     if (!data.last_match && FALLBACK_SON.last_match) {
       data.last_match = FALLBACK_SON.last_match;
     }
+    // 모순 감지: 스코어가 0:0인데 결과가 무승부('D')가 아니면 잘못된 데이터
+    // (ESPN이 가끔 결과는 주는데 스코어는 0:0으로 보내는 케이스)
+    if (
+      data.last_match &&
+      FALLBACK_SON.last_match &&
+      data.last_match.home_score === 0 &&
+      data.last_match.away_score === 0 &&
+      data.last_match.result !== 'D'
+    ) {
+      // 같은 경기인지 opponent_id로 확인 후 fallback 사용
+      if (data.last_match.opponent_id === FALLBACK_SON.last_match.opponent_id) {
+        data.last_match = FALLBACK_SON.last_match;
+      }
+    }
     if (!data.next_match && FALLBACK_SON.next_match) {
       data.next_match = FALLBACK_SON.next_match;
     }
@@ -426,7 +440,24 @@ export const api = {
     if (!data.schedule || Object.keys(data.schedule).length === 0) {
       return FALLBACK_SCHEDULE;
     }
-    return data;
+    // 각 팀별 last 매치 모순 감지 (0:0인데 승/패는 데이터 오류)
+    const fixedSchedule: typeof data.schedule = {};
+    for (const [teamId, sch] of Object.entries(data.schedule)) {
+      const fbTeamSch = FALLBACK_SCHEDULE.schedule[teamId];
+      const fixed = { ...sch };
+      if (
+        fixed.last &&
+        fixed.last.home_score === 0 &&
+        fixed.last.away_score === 0 &&
+        fixed.last.result !== 'D' &&
+        fbTeamSch?.last &&
+        fbTeamSch.last.opponent_id === fixed.last.opponent_id
+      ) {
+        fixed.last = fbTeamSch.last;
+      }
+      fixedSchedule[teamId] = fixed;
+    }
+    return { ...data, schedule: fixedSchedule };
   },
   koreans: async () => {
     const data = await fetchJsonWithRetry<KoreansResponse>(
