@@ -373,6 +373,30 @@ export const api = {
     const data = await fetchJsonWithRetry<SonResponse>('data/son.json', FALLBACK_SON);
     // 빈 응답 안전망: 손흥민 정보가 비어있으면 fallback 사용
     if (!data.son || !data.lafc) return FALLBACK_SON;
+    // 시즌 스탯이 비어있으면 fallback에서 보충
+    // (스크래퍼가 son.json은 만들었지만 ESPN이 스탯을 안 줘서 0/undefined인 경우)
+    const sonHasStats =
+      (data.son.appearances ?? 0) > 0 ||
+      (data.son.goals ?? 0) > 0 ||
+      (data.son.assists ?? 0) > 0;
+    if (!sonHasStats) {
+      data.son = {
+        ...FALLBACK_SON.son,
+        // 스크래퍼가 채운 기본 정보는 우선 (player_name, photo 등)
+        player_name: data.son.player_name || FALLBACK_SON.son.player_name,
+        player_name_ko: data.son.player_name_ko || FALLBACK_SON.son.player_name_ko,
+        photo: data.son.photo || FALLBACK_SON.son.photo,
+        jersey: data.son.jersey || FALLBACK_SON.son.jersey,
+        age: data.son.age || FALLBACK_SON.son.age,
+      };
+    }
+    // 지난/다음 경기가 비어있으면 fallback에서 보충
+    if (!data.last_match && FALLBACK_SON.last_match) {
+      data.last_match = FALLBACK_SON.last_match;
+    }
+    if (!data.next_match && FALLBACK_SON.next_match) {
+      data.next_match = FALLBACK_SON.next_match;
+    }
     return data;
   },
   meta: () =>
@@ -413,7 +437,29 @@ export const api = {
     if (!data.players?.length) {
       return FALLBACK_KOREANS;
     }
-    return data;
+    // 시즌 스탯이 전부 0인 선수는 fallback에서 같은 player_id 또는 이름 매칭으로 보충
+    const enrichedPlayers = data.players.map((p) => {
+      const hasStats =
+        (p.appearances ?? 0) > 0 || (p.goals ?? 0) > 0 || (p.assists ?? 0) > 0;
+      if (hasStats) return p;
+      const fb = FALLBACK_KOREANS.players.find(
+        (f) =>
+          f.player_id === p.player_id ||
+          f.player_name_ko === p.player_name_ko ||
+          f.player_name === p.player_name
+      );
+      if (!fb) return p;
+      return {
+        ...p,
+        appearances: fb.appearances,
+        goals: fb.goals,
+        assists: fb.assists,
+        shots: fb.shots,
+        shots_on_target: fb.shots_on_target,
+        minutes: fb.minutes,
+      };
+    });
+    return { ...data, players: enrichedPlayers };
   },
 };
 
