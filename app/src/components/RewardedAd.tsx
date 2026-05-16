@@ -1,0 +1,196 @@
+import { useEffect, useState } from 'react';
+
+// ─── 광고 ID 설정 ──────────────────────
+const IS_AD_PRODUCTION = true; // 실제 광고 노출 (출시 모드)
+const TEST_REWARDED_ID = 'ait-ad-test-rewarded-id';
+const PROD_REWARDED_ID = 'ait.v2.live.60d8bb8ed48041b5';
+const AD_ID = IS_AD_PRODUCTION ? PROD_REWARDED_ID : TEST_REWARDED_ID;
+
+// 개발 모드 감지 (로컬 브라우저에서 빠른 테스트용)
+const IS_DEV = typeof window !== 'undefined' &&
+  (window.location.hostname === 'localhost' ||
+   window.location.hostname === '127.0.0.1');
+
+interface Props {
+  onReward: () => void;
+  onClose: () => void;
+}
+
+/**
+ * 리워드 광고 (앱인토스 IntegratedAd v2)
+ * - 보상형도 loadFullScreenAd / showFullScreenAd 사용 (전면형과 동일 API)
+ * - 'userEarnedReward' 이벤트 발생 시 onReward() → 리포트 해금
+ * - 'dismissed' 이벤트 시 onClose()
+ * - 로컬 개발 환경(localhost): 3초 카운트다운 후 자동 해금 (테스트 편의)
+ */
+export default function RewardedAd({ onReward, onClose }: Props) {
+  const [status, setStatus] = useState<'loading' | 'ready' | 'playing' | 'error'>('loading');
+  const [countdown, setCountdown] = useState(3);
+
+  useEffect(() => {
+    const cleanups: Array<() => void> = [];
+    let isShown = false;
+
+    // ─── 로컬 개발: 3초 카운트다운 후 해금 ───
+    if (IS_DEV) {
+      setStatus('playing');
+      const interval = setInterval(() => {
+        setCountdown((prev) => {
+          if (prev <= 1) {
+            clearInterval(interval);
+            onReward();
+            onClose();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+      cleanups.push(() => clearInterval(interval));
+      return () => cleanups.forEach((fn) => fn());
+    }
+
+    (async () => {
+      try {
+        const mod: any = await import('@apps-in-toss/web-framework');
+        const loadFullScreenAd = mod?.loadFullScreenAd;
+        const showFullScreenAd = mod?.showFullScreenAd;
+
+        if (typeof loadFullScreenAd !== 'function' || typeof showFullScreenAd !== 'function') {
+          console.warn('[RewardedAd] SDK 미지원');
+          setStatus('error');
+          setTimeout(() => {
+            onReward();
+            onClose();
+          }, 1500);
+          return;
+        }
+
+        const rm1 = loadFullScreenAd({
+          options: { adGroupId: AD_ID },
+          onEvent: (event: any) => {
+            console.log('[RewardedAd] load event:', event?.type, event);
+            if (event?.type !== 'loaded') return;
+            if (isShown) return;
+            isShown = true;
+
+            setStatus('ready');
+            const rm2 = showFullScreenAd({
+              options: { adGroupId: AD_ID },
+              onEvent: (ev: any) => {
+                console.log('[RewardedAd] show event:', ev?.type, ev);
+
+                if (ev?.type === 'show' || ev?.type === 'impression') {
+                  setStatus('playing');
+                }
+
+                if (ev?.type === 'userEarnedReward') {
+                  onReward();
+                }
+
+                if (ev?.type === 'dismissed' || ev?.type === 'closed') {
+                  onClose();
+                }
+
+                if (ev?.type === 'failedToShow') {
+                  console.warn('[RewardedAd] failedToShow:', ev);
+                  setStatus('error');
+                  onClose();
+                }
+              },
+              onError: (err: any) => {
+                console.warn('[RewardedAd] show error:', err);
+                setStatus('error');
+                onClose();
+              },
+            });
+            if (rm2) cleanups.push(rm2);
+          },
+          onError: (err: any) => {
+            console.warn('[RewardedAd] load error:', err);
+            setStatus('error');
+            setTimeout(() => {
+              onReward();
+              onClose();
+            }, 1500);
+          },
+        });
+        if (rm1) cleanups.push(rm1);
+      } catch (e) {
+        console.warn('[RewardedAd] fatal:', e);
+        setStatus('error');
+        setTimeout(() => {
+          onReward();
+          onClose();
+        }, 1500);
+      }
+    })();
+
+    const timeout = setTimeout(() => {
+      if (!isShown) {
+        console.warn('[RewardedAd] timeout');
+        onReward();
+        onClose();
+      }
+    }, 10000);
+    cleanups.push(() => clearTimeout(timeout));
+
+    return () => {
+      cleanups.forEach((fn) => {
+        try {
+          fn();
+        } catch {}
+      });
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        inset: 0,
+        zIndex: 9999,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: 'white',
+          borderRadius: 20,
+          padding: 32,
+          textAlign: 'center',
+          maxWidth: 320,
+          margin: '0 16px',
+        }}
+      >
+        <div style={{ fontSize: 48, marginBottom: 12 }}>
+          {status === 'error' ? '⚠️' : '⚽'}
+        </div>
+        <p style={{ fontSize: 16, fontWeight: 700, color: '#191F28', marginBottom: 8 }}>
+          {IS_DEV && '[개발 모드] 광고 시뮬레이션'}
+          {!IS_DEV && status === 'loading' && '광고를 준비하고 있어요'}
+          {!IS_DEV && status === 'ready' && '광고가 곧 시작됩니다'}
+          {!IS_DEV && status === 'playing' && '광고를 시청중이에요'}
+          {!IS_DEV && status === 'error' && '잠시만 기다려주세요'}
+        </p>
+        <p style={{ fontSize: 13, color: '#8B95A1', lineHeight: 1.5 }}>
+          {IS_DEV && countdown > 0 && (
+            <>
+              <span style={{ fontSize: 32, fontWeight: 800, color: '#3182F6' }}>
+                {countdown}
+              </span>
+              <br />
+              초 후 리포트가 열립니다
+            </>
+          )}
+          {!IS_DEV && '광고 시청 후\n상세 분석 리포트를 확인할 수 있어요'.split('\n').map((line, i) => (
+            <span key={i}>{line}<br /></span>
+          ))}
+        </p>
+      </div>
+    </div>
+  );
+}
