@@ -356,18 +356,49 @@ function enrichStandings(data: StandingsResponse): StandingsResponse {
   };
 }
 
+/**
+ * standings의 recent_form과 schedule.last 결과가 어긋나면 schedule 기준으로 정정.
+ * (ESPN의 standings API가 가끔 가장 최근 경기를 늦게 반영하는 경우 대응)
+ */
+function reconcileFormWithSchedule(
+  data: StandingsResponse,
+  schedule: ScheduleResponse | null
+): StandingsResponse {
+  if (!schedule?.schedule) return data;
+  const fix = (rows: MLSTeamStanding[]) =>
+    rows.map((row) => {
+      const last = schedule.schedule[row.team_id]?.last;
+      if (!last?.result) return row;
+      if (!row.recent_form?.length) return row;
+      const lastInForm = row.recent_form[row.recent_form.length - 1];
+      if (lastInForm === last.result) return row;
+      // schedule.last가 더 최신이라고 가정하고 마지막 한 칸 교체
+      const newForm = [...row.recent_form.slice(0, -1), last.result];
+      return { ...row, recent_form: newForm };
+    });
+  return {
+    ...data,
+    eastern: fix(data.eastern),
+    western: fix(data.western),
+  };
+}
+
 export const api = {
   standings: async () => {
-    const data = await fetchJsonWithRetry<StandingsResponse>(
-      'data/standings.json',
-      FALLBACK_STANDINGS
-    );
+    // standings와 schedule 동시 fetch (schedule은 recent_form 보정용)
+    const [data, scheduleData] = await Promise.all([
+      fetchJsonWithRetry<StandingsResponse>('data/standings.json', FALLBACK_STANDINGS),
+      fetchJsonWithRetry<ScheduleResponse>('data/schedule.json', FALLBACK_SCHEDULE).catch(
+        () => null
+      ),
+    ]);
     // 빈 응답 안전망: 양 컨퍼런스 모두 비어있으면 fallback 사용
     const enriched = enrichStandings(data);
     if (!enriched.eastern?.length && !enriched.western?.length) {
-      return FALLBACK_STANDINGS;
+      return reconcileFormWithSchedule(FALLBACK_STANDINGS, scheduleData);
     }
-    return enriched;
+    // recent_form 마지막이 schedule.last와 어긋나면 정정 (ESPN 비동기 갱신 이슈)
+    return reconcileFormWithSchedule(enriched, scheduleData);
   },
   son: async () => {
     const data = await fetchJsonWithRetry<SonResponse>('data/son.json', FALLBACK_SON);
