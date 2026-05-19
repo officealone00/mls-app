@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-05-18T03:33:33.798Z",
+  "updated_at": "2026-05-19T03:26:13.877Z",
   "schedule": {
     "182": {
       "last": {
@@ -454,19 +454,19 @@
     },
     "20232": {
       "last": {
-        "match_id": "761619",
-        "date": "2026-05-13T23:30Z",
-        "date_kst": "2026-05-14T08:30:00.000Z",
-        "kst_display": "5월 14일 (목) 오전 8:30",
-        "home": false,
-        "opponent_id": "18267",
-        "opponent_name": "FC Cincinnati",
-        "opponent_short": "Cincinnati",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "match_id": "761642",
+        "date": "2026-05-17T22:00Z",
+        "date_kst": "2026-05-18T07:00:00.000Z",
+        "kst_display": "5월 18일 (월) 오전 7:00",
+        "home": true,
+        "opponent_id": "9723",
+        "opponent_name": "Portland Timbers",
+        "opponent_short": "Portland",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
         "home_score": 0,
         "away_score": 0,
         "result": null,
-        "venue": "TQL Stadium",
+        "venue": "Nu Stadium",
         "round": ""
       }
     },
