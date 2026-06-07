@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-06-07T03:43:53.835Z",
+  "updated_at": "2026-06-07T18:00:17.831Z",
   "players": [
     {
       "player_id": "149945",
@@ -14,12 +14,12 @@
       "team_name": "LAFC",
       "team_short": "LAFC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-      "appearances": null,
+      "appearances": 13,
       "goals": 0,
-      "assists": 0,
-      "shots": 0,
-      "shots_on_target": 0,
-      "minutes": 0
+      "assists": 9,
+      "shots": 39,
+      "shots_on_target": 10,
+      "minutes": 1045
     },
     {
       "player_id": "175922",
@@ -33,12 +33,12 @@
       "team_name": "Seattle Sounders FC",
       "team_short": "Seattle",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "appearances": null,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
       "shots": 0,
       "shots_on_target": 0,
-      "minutes": 0
+      "minutes": 63
     }
   ]
 }
