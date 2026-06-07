@@ -21,7 +21,7 @@ const STANDINGS_URL = `https://site.web.api.espn.com/apis/v2/sports/soccer/usa.1
 const LAFC_TEAM_ID = '18966';
 
 // 손흥민 ESPN athlete ID 후보. roster 스캔으로 동적 탐지하되, 못 찾으면 첫 번째 fallback
-const SON_ATHLETE_ID_CANDIDATES = ['178194', '4486394'];
+const SON_ATHLETE_ID_CANDIDATES = ['149945', '178194', '4486394'];
 
 const LAFC_TEAM_URL = `https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/${LAFC_TEAM_ID}`;
 const TEAM_SCHEDULE_URL = (teamId) =>
@@ -37,8 +37,12 @@ const LEADERS_URL_CANDIDATES = [
   `https://site.web.api.espn.com/apis/v2/sports/soccer/usa.1/leaders?season=${SEASON}`,
 ];
 
+// ESPN site/common API의 선수 통계·leaders 엔드포인트가 빈값을 반환 → core API(canonical)로 전환
+const CORE_BASE = `https://sports.core.api.espn.com/v2/sports/soccer/leagues/usa.1/seasons/${SEASON}`;
+const CORE_LEADERS_URL = `${CORE_BASE}/types/1/leaders?limit=15`;
+const CORE_ATHLETE_URL = (id) => `${CORE_BASE}/athletes/${id}`;
 const ATHLETE_STATS_URL = (id) =>
-  `https://site.web.api.espn.com/apis/common/v3/sports/soccer/usa.1/athletes/${id}/statistics?season=${SEASON}`;
+  `${CORE_BASE}/types/1/athletes/${id}/statistics`;
 const ATHLETE_GAMELOG_URL = (id) =>
   `https://site.web.api.espn.com/apis/common/v3/sports/soccer/usa.1/athletes/${id}/gamelog?season=${SEASON}`;
 
@@ -530,7 +534,7 @@ async function enrichKoreanStats(koreans) {
     try {
       const data = await httpsGet(ATHLETE_STATS_URL(p.player_id), { silentAll: true });
       if (!data) return;
-      const categories = data?.statistics?.splits?.categories || [];
+      const categories = data?.splits?.categories || data?.statistics?.splits?.categories || [];
       const allStats = [];
       categories.forEach((cat) => {
         (cat.stats || []).forEach((s) => allStats.push(s));
@@ -823,74 +827,90 @@ async function fetchSonAndLAFC(standings, scheduleCache, sonAthleteId, koreans) 
 }
 
 // ===== 7. scorers.json (다중 URL 시도) =====
-async function fetchScorers() {
-  console.log('\n[7/7] 득점/어시스트 순위 가져오는 중...');
+async function fetchScorers(standings) {
+  console.log('\n[7/7] 득점/어시스트 순위 가져오는 중 (ESPN core API)...');
 
   let scorers = [];
   let assisters = [];
 
-  for (const url of LEADERS_URL_CANDIDATES) {
-    try {
-      const leaders = await httpsGet(url, { silentAll: true });
-      if (!leaders) continue;
+  // 팀ID -> 이름/로고 매핑 (standings 재사용)
+  const teamMap = {};
+  [...(standings?.eastern || []), ...(standings?.western || [])].forEach((t) => {
+    teamMap[String(t.team_id)] = {
+      name: t.team_name,
+      short: t.team_short_name,
+      logo: t.team_logo,
+    };
+  });
+  const idFromRef = (ref) => {
+    const m = /\/(?:athletes|teams)\/(\d+)/.exec(ref || '');
+    return m ? m[1] : '';
+  };
 
-      const cats = leaders?.categories || leaders?.leaders?.categories || [];
-      if (cats.length === 0) continue;
+  try {
+    const data = await httpsGet(CORE_LEADERS_URL, { silentAll: true });
+    const cats = data?.categories || [];
+    // core leaders는 'goals'/'assists' 카테고리에 athlete/team $ref + value를 담는다
+    const goalCat =
+      cats.find((c) => (c.name || '') === 'goals') ||
+      cats.find((c) => /goal/i.test(c.name || '') && !/against/i.test(c.name || ''));
+    const assistCat =
+      cats.find((c) => (c.name || '') === 'assists') ||
+      cats.find((c) => /assist/i.test(c.name || ''));
 
-      const goalCat = cats.find((c) => {
-        const n = (c.name || c.abbreviation || '').toLowerCase();
-        return (n.includes('goal') && !n.includes('against')) || n === 'totalgoals' || n === 'g';
-      });
-      const assistCat = cats.find((c) => {
-        const n = (c.name || c.abbreviation || '').toLowerCase();
-        return n.includes('assist');
-      });
+    const extract = (cat) =>
+      (cat?.leaders || []).slice(0, 15).map((l) => ({
+        athleteId: idFromRef(l.athlete?.$ref),
+        teamId: idFromRef(l.team?.$ref),
+        value: Number(l.value ?? l.displayValue ?? 0),
+      }));
+    const goalRows = extract(goalCat);
+    const assistRows = extract(assistCat);
 
-      const mapLeader = (l, idx, statKey) => {
-        const a = l.athlete || {};
-        const t = l.team || a.team || {};
-        const teamLogo =
-          (t.logos && t.logos[0]?.href) ||
-          t.logo ||
-          (t.id ? `https://a.espncdn.com/i/teamlogos/soccer/500/${t.id}.png` : '');
-        const value = Number(l.value ?? l.displayValue ?? 0);
-        const flagAlt = a.flag?.alt || a.flag?.name || '';
-        const isKR =
-          /korea/i.test(flagAlt) ||
-          /heung[- ]?min/i.test(a.displayName || '') ||
-          SON_ATHLETE_ID_CANDIDATES.includes(String(a.id));
-        const base = {
-          rank: idx + 1,
-          player_id: String(a.id || ''),
-          player_name: a.displayName || a.fullName || a.shortName || '',
-          player_name_ko: isKR && /heung[- ]?min/i.test(a.displayName || '')
-            ? '손흥민'
-            : '',
-          nationality: flagAlt || a.birthPlace?.country || '',
-          team_id: String(t.id || ''),
-          team_name: t.displayName || t.name || '',
-          team_short: t.shortDisplayName || t.abbreviation || '',
-          team_logo: teamLogo,
-          played: 0,
-          [statKey]: value,
-        };
-        if (statKey === 'goals') {
-          base.penalties = 0;
-        }
-        return base;
+    // 선수 이름/국적은 athlete $ref로 별도 조회 (중복 제거 후 동시 호출)
+    const ids = [...new Set([...goalRows, ...assistRows].map((r) => r.athleteId).filter(Boolean))];
+    const athleteCache = {};
+    await pLimit(
+      ids.map((id) => async () => {
+        const a = await httpsGet(CORE_ATHLETE_URL(id), { silentAll: true });
+        if (a) athleteCache[id] = a;
+      }),
+      6
+    );
+
+    const buildRow = (r, idx, statKey) => {
+      const a = athleteCache[r.athleteId] || {};
+      const tm = teamMap[r.teamId] || {};
+      const flagAlt = a.flag?.alt || a.citizenship || '';
+      const isSon =
+        /heung[- ]?min/i.test(a.displayName || '') ||
+        SON_ATHLETE_ID_CANDIDATES.includes(String(r.athleteId));
+      const base = {
+        rank: idx + 1,
+        player_id: String(r.athleteId || ''),
+        player_name: a.displayName || a.fullName || a.shortName || '',
+        player_name_ko: isSon ? '손흥민' : '',
+        nationality: flagAlt,
+        team_id: String(r.teamId || ''),
+        team_name: tm.name || '',
+        team_short: tm.short || '',
+        team_logo:
+          tm.logo ||
+          (r.teamId ? `https://a.espncdn.com/i/teamlogos/soccer/500/${r.teamId}.png` : ''),
+        photo: r.athleteId
+          ? `https://a.espncdn.com/i/headshots/soccer/players/full/${r.athleteId}.png`
+          : '',
+        played: 0,
+        [statKey]: r.value,
       };
+      if (statKey === 'goals') base.penalties = 0;
+      return base;
+    };
 
-      if (goalCat?.leaders && goalCat.leaders.length > 0) {
-        scorers = goalCat.leaders.slice(0, 15).map((l, i) => mapLeader(l, i, 'goals'));
-      }
-      if (assistCat?.leaders && assistCat.leaders.length > 0) {
-        assisters = assistCat.leaders.slice(0, 15).map((l, i) => mapLeader(l, i, 'assists'));
-      }
-
-      if (scorers.length > 0 || assisters.length > 0) break;
-    } catch (e) {
-      console.warn(`  leaders API 시도 실패:`, e.message);
-    }
+    scorers = goalRows.map((r, i) => buildRow(r, i, 'goals'));
+    assisters = assistRows.map((r, i) => buildRow(r, i, 'assists'));
+  } catch (e) {
+    console.warn('  core leaders 실패:', e.message);
   }
 
   writeJsonSafe('scorers.json', {
@@ -957,7 +977,7 @@ function writeStandings(standings) {
     writeKoreans(koreans);
 
     await fetchSonAndLAFC(standings, scheduleCache, sonAthleteId, koreans);
-    await fetchScorers();
+    await fetchScorers(standings);
     writeMeta();
 
     console.log('\n==============================================');
