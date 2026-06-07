@@ -38,3 +38,12 @@ jobs:
           git diff --staged --quiet || git commit -m "Update MLS data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main || true
           git push
+
+      - name: Purge jsdelivr cache
+        run: |
+          # 데이터 커밋 후 jsdelivr 캐시를 비워 앱에 즉시 반영 (KBO/kleague와 동일)
+          sleep 15
+          for f in standings scorers son koreans schedule meta; do
+            curl -fsS "https://purge.jsdelivr.net/gh/officealone00/mls-app@main/data/$f.json" || true
+            echo ""
+          done
