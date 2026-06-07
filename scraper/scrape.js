@@ -49,7 +49,26 @@ const ATHLETE_GAMELOG_URL = (id) =>
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
 // ===== HTTP 유틸 =====
-function httpsGet(url, { silent404 = false, silentAll = false } = {}) {
+// 일시적 실패(타임아웃/429/5xx/네트워크, ESPN core API가 러너에서 가끔 빈 응답)를 대비해
+// httpsGet은 null/에러 시 자동 재시도한다. 한 번만 호출하는 원형은 httpsGetOnce.
+async function httpsGet(url, opts = {}) {
+  const retries = opts.retries ?? 3;
+  let lastErr = null;
+  for (let i = 1; i <= retries; i++) {
+    try {
+      const r = await httpsGetOnce(url, opts);
+      if (r !== null) return r;
+    } catch (e) {
+      lastErr = e;
+    }
+    if (i < retries) await new Promise((res) => setTimeout(res, 1200 * i));
+  }
+  if (opts.silentAll) return null;
+  if (lastErr) throw lastErr;
+  return null;
+}
+
+function httpsGetOnce(url, { silent404 = false, silentAll = false } = {}) {
   return new Promise((resolve, reject) => {
     const req = https.get(
       url,
@@ -833,6 +852,24 @@ async function fetchSonAndLAFC(standings, scheduleCache, sonAthleteId, koreans) 
     league_assist_rank: sonRanks.league_assist_rank ?? null,
   };
 
+  // 일시적 실패로 손흥민 stats/경기 정보가 비었으면 기존 데이터 보존 (좋은 데이터 보호)
+  try {
+    const prev = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'son.json'), 'utf8'));
+    const sonEmpty = (sonInfo.appearances == null || sonInfo.appearances === 0) && !sonInfo.assists;
+    if (sonEmpty && prev?.son && (prev.son.appearances || prev.son.assists)) {
+      console.warn('  ⚠ 손흥민 stats 비어있음 → 기존 보존');
+      sonInfo.appearances = prev.son.appearances;
+      sonInfo.goals = prev.son.goals;
+      sonInfo.assists = prev.son.assists;
+      sonInfo.shots = prev.son.shots;
+      sonInfo.shots_on_target = prev.son.shots_on_target;
+      sonInfo.minutes = prev.son.minutes;
+      sonInfo.goals_per_match = prev.son.goals_per_match;
+    }
+    if (!nextMatch && prev?.next_match) nextMatch = prev.next_match;
+    if (!lastMatch && prev?.last_match) lastMatch = prev.last_match;
+  } catch (e) {}
+
   writeJsonSafe('son.json', {
     season: SEASON,
     updated_at: new Date().toISOString(),
@@ -932,6 +969,18 @@ async function fetchScorers(standings) {
     assisters = assistRows.map((r, i) => buildRow(r, i, 'assists'));
   } catch (e) {
     console.warn('  core leaders 실패:', e.message);
+  }
+
+  // 일시적 API 실패로 비었으면 기존 데이터 보존 (좋은 데이터를 빈값으로 덮지 않음)
+  if (scorers.length === 0 && assisters.length === 0) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'scorers.json'), 'utf8'));
+      if ((prev.scorers?.length || 0) > 0 || (prev.assisters?.length || 0) > 0) {
+        console.warn('  ⚠ 득점/도움 비어있음 → 기존 데이터 보존');
+        scorers = prev.scorers || [];
+        assisters = prev.assisters || [];
+      }
+    } catch (e) {}
   }
 
   writeJsonSafe('scorers.json', {
