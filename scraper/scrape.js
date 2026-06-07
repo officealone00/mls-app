@@ -677,9 +677,30 @@ async function fetchSonAndLAFC(standings, scheduleCache, sonAthleteId, koreans) 
   const lafcCompleted = lafcParsed
     .filter((m) => m.completed)
     .sort((a, b) => new Date(b.date) - new Date(a.date));
-  const lafcUpcoming = lafcParsed
+  let lafcUpcoming = lafcParsed
     .filter((m) => !m.completed && new Date(m.date) > new Date(Date.now() - 4 * 60 * 60 * 1000))
     .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  // 기본 schedule API는 현재 근처 경기 윈도우만 반환 → 월드컵 등 장기 휴식기엔
+  // 다음 경기(예: 7월)가 윈도우 밖이라 누락됨. fixture=true 전용 호출로 미래 경기 보강.
+  if (lafcUpcoming.length === 0) {
+    try {
+      const fx = await httpsGet(`${TEAM_SCHEDULE_URL(LAFC_TEAM_ID)}&fixture=true`, {
+        silentAll: true,
+      });
+      const fxEvents = Array.isArray(fx?.events) ? fx.events : [];
+      lafcUpcoming = fxEvents
+        .map((ev) => parseEventForTeam(ev, LAFC_TEAM_ID))
+        .filter(Boolean)
+        .filter((m) => !m.completed && new Date(m.date) > new Date(Date.now() - 4 * 60 * 60 * 1000))
+        .sort((a, b) => new Date(a.date) - new Date(b.date));
+      if (lafcUpcoming[0]) {
+        console.log(`  다음 경기 fixture 보강: ${lafcUpcoming[0].date} vs ${lafcUpcoming[0].opponent_short}`);
+      }
+    } catch (e) {
+      console.warn('  fixture 보강 실패:', e.message);
+    }
+  }
 
   if (lafcCompleted[0]) {
     const m = lafcCompleted[0];
