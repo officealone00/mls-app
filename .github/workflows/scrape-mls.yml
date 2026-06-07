@@ -40,9 +40,25 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
-          git diff --staged --quiet || git commit -m "Update MLS data $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main || true
-          git push
+          if git diff --staged --quiet; then
+            echo "데이터 변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "Update MLS data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # 이전 버그: 'git pull --rebase || true; git push' 가 실패를 삼켜 새 데이터가 조용히 사라짐.
+          # 원격 최신 위에 재배치 후 푸시, 실패하면 재시도, 끝내 실패하면 빨갛게 종료해 손실을 막는다.
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              echo "push 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "push 시도 $i 실패 → 재시도"
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          echo "push 최종 실패"
+          exit 1
 
       - name: Purge jsdelivr cache
         run: |
