@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-06-17T22:28:30.023Z",
+  "updated_at": "2026-06-18T07:24:22.956Z",
   "schedule": {
     "182": {
       "last": {
@@ -38,24 +38,7 @@
         "round": ""
       }
     },
-    "184": {
-      "last": {
-        "match_id": "761654",
-        "date": "2026-05-24T01:30Z",
-        "date_kst": "2026-05-24T10:30:00.000Z",
-        "kst_display": "5월 24일 (일) 오전 10:30",
-        "home": true,
-        "opponent_id": "185",
-        "opponent_name": "FC Dallas",
-        "opponent_short": "Dallas",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
-        "home_score": 0,
-        "away_score": 0,
-        "result": null,
-        "venue": "Dick's Sporting Goods Park",
-        "round": ""
-      }
-    },
+    "184": {},
     "185": {
       "last": {
         "match_id": "761654",
