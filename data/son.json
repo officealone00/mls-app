@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-09T06:36:17.318Z",
+  "updated_at": "2026-07-09T11:43:32.906Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -75,9 +75,9 @@
   },
   "next_match": {
     "match_id": "761664",
-    "date": "2026-07-18T02:45Z",
-    "date_kst": "2026-07-18T11:45:00.000Z",
-    "kst_display": "7월 18일 (토) 오전 11:45",
+    "date": "2026-07-18T02:25Z",
+    "date_kst": "2026-07-18T11:25:00.000Z",
+    "kst_display": "7월 18일 (토) 오전 11:25",
     "competition": "MLS Regular Season",
     "round": "",
     "home": false,
