@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-17T21:40:18.191Z",
+  "updated_at": "2026-07-18T05:14:32.268Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -49,21 +49,21 @@
     "league_assist_rank": null
   },
   "last_match": {
-    "match_id": "761658",
-    "date": "2026-05-25T01:15Z",
-    "date_kst": "2026-05-25T10:15:00.000Z",
-    "kst_display": "5월 25일 (월) 오전 10:15",
+    "match_id": "761664",
+    "date": "2026-07-18T02:25Z",
+    "date_kst": "2026-07-18T11:25:00.000Z",
+    "kst_display": "7월 18일 (토) 오전 11:25",
     "competition": "MLS Regular Season",
     "round": "",
-    "home": true,
-    "opponent_id": "9726",
-    "opponent_name": "Seattle Sounders FC",
-    "opponent_short": "Seattle",
-    "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+    "home": false,
+    "opponent_id": "187",
+    "opponent_name": "LA Galaxy",
+    "opponent_short": "LA Galaxy",
+    "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
     "home_score": 0,
     "away_score": 0,
     "result": null,
-    "venue": "BMO Stadium",
+    "venue": "Dignity Health Sports Park",
     "son_played": false,
     "son_minutes": 0,
     "son_goals": 0,
@@ -86,7 +86,7 @@
     "opponent_short": "LA Galaxy",
     "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
     "venue": "Dignity Health Sports Park",
-    "days_until": 1,
+    "days_until": 0,
     "preview": ""
   }
 }
