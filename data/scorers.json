@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-26T05:49:52.004Z",
+  "updated_at": "2026-07-26T10:26:54.198Z",
   "scorers": [
     {
       "rank": 1,
@@ -34,6 +34,21 @@
     },
     {
       "rank": 3,
+      "player_id": "108107",
+      "player_name": "Nicolás Fernández",
+      "player_name_ko": "",
+      "nationality": "Argentina",
+      "team_id": "17606",
+      "team_name": "New York City FC",
+      "team_short": "NYCFC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/108107.png",
+      "played": 0,
+      "goals": 12,
+      "penalties": 0
+    },
+    {
+      "rank": 4,
       "player_id": "45843",
       "player_name": "Lionel Messi",
       "player_name_ko": "",
@@ -45,21 +60,6 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
       "played": 0,
       "goals": 12,
-      "penalties": 0
-    },
-    {
-      "rank": 4,
-      "player_id": "108107",
-      "player_name": "Nicolás Fernández",
-      "player_name_ko": "",
-      "nationality": "Argentina",
-      "team_id": "17606",
-      "team_name": "New York City FC",
-      "team_short": "NYCFC",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/108107.png",
-      "played": 0,
-      "goals": 11,
       "penalties": 0
     },
     {
@@ -94,6 +94,21 @@
     },
     {
       "rank": 7,
+      "player_id": "251694",
+      "player_name": "Kévin Denkey",
+      "player_name_ko": "",
+      "nationality": "Togo",
+      "team_id": "18267",
+      "team_name": "FC Cincinnati",
+      "team_short": "Cincinnati",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/251694.png",
+      "played": 0,
+      "goals": 11,
+      "penalties": 0
+    },
+    {
+      "rank": 8,
       "player_id": "233401",
       "player_name": "Martín Ojeda",
       "player_name_ko": "",
@@ -108,7 +123,22 @@
       "penalties": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "player_id": "213304",
+      "player_name": "Denis Bouanga",
+      "player_name_ko": "",
+      "nationality": "Gabon",
+      "team_id": "18966",
+      "team_name": "LAFC",
+      "team_short": "LAFC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/213304.png",
+      "played": 0,
+      "goals": 10,
+      "penalties": 0
+    },
+    {
+      "rank": 10,
       "player_id": "249490",
       "player_name": "Brian White",
       "player_name_ko": "",
@@ -123,22 +153,7 @@
       "penalties": 0
     },
     {
-      "rank": 9,
-      "player_id": "251694",
-      "player_name": "Kévin Denkey",
-      "player_name_ko": "",
-      "nationality": "Togo",
-      "team_id": "18267",
-      "team_name": "FC Cincinnati",
-      "team_short": "Cincinnati",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/251694.png",
-      "played": 0,
-      "goals": 10,
-      "penalties": 0
-    },
-    {
-      "rank": 10,
+      "rank": 11,
       "player_id": "86436",
       "player_name": "Evander",
       "player_name_ko": "",
@@ -153,7 +168,22 @@
       "penalties": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
+      "player_id": "313068",
+      "player_name": "Tai Baribo",
+      "player_name_ko": "",
+      "nationality": "Israel",
+      "team_id": "193",
+      "team_name": "D.C. United",
+      "team_short": "D.C. United",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/313068.png",
+      "played": 0,
+      "goals": 10,
+      "penalties": 0
+    },
+    {
+      "rank": 13,
       "player_id": "227627",
       "player_name": "Sam Surridge",
       "player_name_ko": "",
@@ -168,7 +198,7 @@
       "penalties": 0
     },
     {
-      "rank": 12,
+      "rank": 14,
       "player_id": "288041",
       "player_name": "Julian Hall",
       "player_name_ko": "",
@@ -183,48 +213,18 @@
       "penalties": 0
     },
     {
-      "rank": 13,
-      "player_id": "275798",
-      "player_name": "Prince Owusu",
-      "player_name_ko": "",
-      "nationality": "Ghana",
-      "team_id": "9720",
-      "team_name": "CF Montréal",
-      "team_short": "CF Montréal",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/275798.png",
-      "played": 0,
-      "goals": 9,
-      "penalties": 0
-    },
-    {
-      "rank": 14,
-      "player_id": "313068",
-      "player_name": "Tai Baribo",
-      "player_name_ko": "",
-      "nationality": "Israel",
-      "team_id": "193",
-      "team_name": "D.C. United",
-      "team_short": "D.C. United",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/313068.png",
-      "played": 0,
-      "goals": 9,
-      "penalties": 0
-    },
-    {
       "rank": 15,
-      "player_id": "288791",
-      "player_name": "Rafael Navarro",
+      "player_id": "263585",
+      "player_name": "Milan Iloski",
       "player_name_ko": "",
-      "nationality": "Brazil",
-      "team_id": "184",
-      "team_name": "Colorado Rapids",
-      "team_short": "Colorado",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/288791.png",
+      "nationality": "USA",
+      "team_id": "10739",
+      "team_name": "Philadelphia Union",
+      "team_short": "Philadelphia",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/263585.png",
       "played": 0,
-      "goals": 8,
+      "goals": 9,
       "penalties": 0
     }
   ],
@@ -259,6 +259,20 @@
     },
     {
       "rank": 3,
+      "player_id": "86436",
+      "player_name": "Evander",
+      "player_name_ko": "",
+      "nationality": "Brazil",
+      "team_id": "18267",
+      "team_name": "FC Cincinnati",
+      "team_short": "Cincinnati",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/86436.png",
+      "played": 0,
+      "assists": 8
+    },
+    {
+      "rank": 4,
       "player_id": "45843",
       "player_name": "Lionel Messi",
       "player_name_ko": "",
@@ -272,7 +286,7 @@
       "assists": 8
     },
     {
-      "rank": 4,
+      "rank": 5,
       "player_id": "73200",
       "player_name": "Cristian Espinoza",
       "player_name_ko": "",
@@ -286,7 +300,7 @@
       "assists": 8
     },
     {
-      "rank": 5,
+      "rank": 6,
       "player_id": "268604",
       "player_name": "Pep Biel",
       "player_name_ko": "",
@@ -300,7 +314,7 @@
       "assists": 7
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player_id": "233943",
       "player_name": "Joaquín Pereyra",
       "player_name_ko": "",
@@ -314,7 +328,35 @@
       "assists": 7
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "player_id": "279180",
+      "player_name": "Pavel Bucha",
+      "player_name_ko": "",
+      "nationality": "Czechia",
+      "team_id": "18267",
+      "team_name": "FC Cincinnati",
+      "team_short": "Cincinnati",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/279180.png",
+      "played": 0,
+      "assists": 7
+    },
+    {
+      "rank": 9,
+      "player_id": "233578",
+      "player_name": "Guilherme Augusto",
+      "player_name_ko": "",
+      "nationality": "Brazil",
+      "team_id": "6077",
+      "team_name": "Houston Dynamo FC",
+      "team_short": "Houston",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/233578.png",
+      "played": 0,
+      "assists": 7
+    },
+    {
+      "rank": 10,
       "player_id": "315594",
       "player_name": "Telasco Segovia",
       "player_name_ko": "",
@@ -328,7 +370,7 @@
       "assists": 7
     },
     {
-      "rank": 8,
+      "rank": 11,
       "player_id": "186466",
       "player_name": "Philip Zinckernagel",
       "player_name_ko": "",
@@ -342,21 +384,7 @@
       "assists": 7
     },
     {
-      "rank": 9,
-      "player_id": "86436",
-      "player_name": "Evander",
-      "player_name_ko": "",
-      "nationality": "Brazil",
-      "team_id": "18267",
-      "team_name": "FC Cincinnati",
-      "team_short": "Cincinnati",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/86436.png",
-      "played": 0,
-      "assists": 7
-    },
-    {
-      "rank": 10,
+      "rank": 12,
       "player_id": "295771",
       "player_name": "Sebastian Berhalter",
       "player_name_ko": "",
@@ -370,7 +398,7 @@
       "assists": 7
     },
     {
-      "rank": 11,
+      "rank": 13,
       "player_id": "174466",
       "player_name": "Rodrigo De Paul",
       "player_name_ko": "",
@@ -384,7 +412,7 @@
       "assists": 7
     },
     {
-      "rank": 12,
+      "rank": 14,
       "player_id": "333752",
       "player_name": "Niko Tsakiris",
       "player_name_ko": "",
@@ -398,44 +426,16 @@
       "assists": 7
     },
     {
-      "rank": 13,
-      "player_id": "279180",
-      "player_name": "Pavel Bucha",
-      "player_name_ko": "",
-      "nationality": "Czechia",
-      "team_id": "18267",
-      "team_name": "FC Cincinnati",
-      "team_short": "Cincinnati",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/279180.png",
-      "played": 0,
-      "assists": 6
-    },
-    {
-      "rank": 14,
-      "player_id": "275798",
-      "player_name": "Prince Owusu",
-      "player_name_ko": "",
-      "nationality": "Ghana",
-      "team_id": "9720",
-      "team_name": "CF Montréal",
-      "team_short": "CF Montréal",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/275798.png",
-      "played": 0,
-      "assists": 6
-    },
-    {
       "rank": 15,
-      "player_id": "148641",
-      "player_name": "Emil Forsberg",
+      "player_id": "122356",
+      "player_name": "Marco Reus",
       "player_name_ko": "",
-      "nationality": "Sweden",
-      "team_id": "190",
-      "team_name": "Red Bull New York",
-      "team_short": "Red Bull NY",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/148641.png",
+      "nationality": "Germany",
+      "team_id": "187",
+      "team_name": "LA Galaxy",
+      "team_short": "LA Galaxy",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/122356.png",
       "played": 0,
       "assists": 6
     }

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-26T05:49:32.879Z",
+  "updated_at": "2026-07-26T10:26:35.517Z",
   "players": [
     {
       "player_id": "149945",
@@ -14,31 +14,12 @@
       "team_name": "LAFC",
       "team_short": "LAFC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-      "appearances": 15,
-      "goals": 2,
+      "appearances": 16,
+      "goals": 3,
       "assists": 9,
-      "shots": 49,
-      "shots_on_target": 14,
-      "minutes": 1193
-    },
-    {
-      "player_id": "175922",
-      "player_name": "Kim Kee-Hee",
-      "player_name_ko": "김기희",
-      "position": "Defender",
-      "jersey": "20",
-      "age": 37,
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/175922.png",
-      "team_id": "9726",
-      "team_name": "Seattle Sounders FC",
-      "team_short": "Seattle",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "appearances": 1,
-      "goals": 0,
-      "assists": 0,
-      "shots": 0,
-      "shots_on_target": 0,
-      "minutes": 63
+      "shots": 53,
+      "shots_on_target": 16,
+      "minutes": 1278
     },
     {
       "player_id": "175922",
@@ -71,12 +52,31 @@
       "team_name": "LAFC",
       "team_short": "LAFC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-      "appearances": 15,
-      "goals": 2,
+      "appearances": 16,
+      "goals": 3,
       "assists": 9,
-      "shots": 49,
-      "shots_on_target": 14,
-      "minutes": 1193
+      "shots": 53,
+      "shots_on_target": 16,
+      "minutes": 1278
+    },
+    {
+      "player_id": "175922",
+      "player_name": "Kim Kee-Hee",
+      "player_name_ko": "김기희",
+      "position": "Defender",
+      "jersey": "20",
+      "age": 37,
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/175922.png",
+      "team_id": "9726",
+      "team_name": "Seattle Sounders FC",
+      "team_short": "Seattle",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "appearances": 1,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "shots_on_target": 0,
+      "minutes": 63
     }
   ]
 }
