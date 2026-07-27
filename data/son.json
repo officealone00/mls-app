@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-27T12:09:05.765Z",
+  "updated_at": "2026-07-27T16:52:21.046Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -42,8 +42,8 @@
     "shots": 53,
     "shots_on_target": 16,
     "minutes": 1278,
-    "yellow_cards": null,
-    "red_cards": null,
+    "yellow_cards": 0,
+    "red_cards": 0,
     "goals_per_match": 0.19,
     "league_goal_rank": null,
     "league_assist_rank": null
