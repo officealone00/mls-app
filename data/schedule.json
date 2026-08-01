@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-31T21:54:59.180Z",
+  "updated_at": "2026-08-01T05:44:13.815Z",
   "schedule": {
     "182": {
       "last": {
@@ -220,19 +220,19 @@
     },
     "7318": {
       "last": {
-        "match_id": "761681",
-        "date": "2026-07-25T23:30Z",
-        "date_kst": "2026-07-26T08:30:00.000Z",
-        "kst_display": "7월 26일 (일) 오전 8:30",
+        "match_id": "761695",
+        "date": "2026-07-31T23:30Z",
+        "date_kst": "2026-08-01T08:30:00.000Z",
+        "kst_display": "8월 1일 (토) 오전 8:30",
         "home": false,
-        "opponent_id": "193",
-        "opponent_name": "D.C. United",
-        "opponent_short": "D.C. United",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "opponent_id": "17606",
+        "opponent_name": "New York City FC",
+        "opponent_short": "NYCFC",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
         "home_score": 0,
         "away_score": 0,
         "result": null,
-        "venue": "Audi Field",
+        "venue": "Yankee Stadium",
         "round": ""
       }
     },
@@ -364,15 +364,15 @@
     },
     "17606": {
       "last": {
-        "match_id": "761683",
-        "date": "2026-07-25T23:30Z",
-        "date_kst": "2026-07-26T08:30:00.000Z",
-        "kst_display": "7월 26일 (일) 오전 8:30",
+        "match_id": "761695",
+        "date": "2026-07-31T23:30Z",
+        "date_kst": "2026-08-01T08:30:00.000Z",
+        "kst_display": "8월 1일 (토) 오전 8:30",
         "home": true,
-        "opponent_id": "182",
-        "opponent_name": "Chicago Fire FC",
-        "opponent_short": "Chicago",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+        "opponent_id": "7318",
+        "opponent_name": "Toronto FC",
+        "opponent_short": "Toronto",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
         "home_score": 0,
         "away_score": 0,
         "result": null,

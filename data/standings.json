@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-31T21:54:59.175Z",
+  "updated_at": "2026-08-01T05:44:13.807Z",
   "eastern": [
     {
       "rank": 1,
@@ -81,15 +81,15 @@
       "team_short_name": "NYCFC",
       "team_abbr": "NYC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-      "played": 17,
+      "played": 18,
       "wins": 7,
-      "draws": 4,
+      "draws": 5,
       "losses": 6,
-      "goals_for": 30,
-      "goals_against": 23,
+      "goals_for": 31,
+      "goals_against": 24,
       "goal_diff": 7,
       "goal_diff_display": "+7",
-      "points": 25,
+      "points": 26,
       "recent_form": []
     },
     {
@@ -207,15 +207,15 @@
       "team_short_name": "Toronto",
       "team_abbr": "TOR",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
-      "played": 17,
+      "played": 18,
       "wins": 3,
-      "draws": 7,
+      "draws": 8,
       "losses": 7,
-      "goals_for": 23,
-      "goals_against": 31,
+      "goals_for": 24,
+      "goals_against": 32,
       "goal_diff": -8,
       "goal_diff_display": "-8",
-      "points": 16,
+      "points": 17,
       "recent_form": []
     },
     {
