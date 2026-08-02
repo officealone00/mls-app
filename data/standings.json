@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-02T05:45:24.335Z",
+  "updated_at": "2026-08-02T10:23:32.394Z",
   "eastern": [
     {
       "rank": 1,
@@ -402,24 +402,42 @@
     },
     {
       "rank": 8,
-      "team_id": "9726",
-      "team_name": "Seattle Sounders FC",
-      "team_short_name": "Seattle",
-      "team_abbr": "SEA",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "played": 16,
+      "team_id": "9723",
+      "team_name": "Portland Timbers",
+      "team_short_name": "Portland",
+      "team_abbr": "POR",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+      "played": 18,
       "wins": 7,
       "draws": 3,
-      "losses": 6,
-      "goals_for": 19,
-      "goals_against": 20,
-      "goal_diff": -1,
-      "goal_diff_display": "-1",
+      "losses": 8,
+      "goals_for": 33,
+      "goals_against": 33,
+      "goal_diff": 0,
+      "goal_diff_display": "0",
       "points": 24,
       "recent_form": []
     },
     {
       "rank": 9,
+      "team_id": "9726",
+      "team_name": "Seattle Sounders FC",
+      "team_short_name": "Seattle",
+      "team_abbr": "SEA",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "played": 17,
+      "wins": 7,
+      "draws": 3,
+      "losses": 7,
+      "goals_for": 20,
+      "goals_against": 22,
+      "goal_diff": -2,
+      "goal_diff_display": "-2",
+      "points": 24,
+      "recent_form": []
+    },
+    {
+      "rank": 10,
       "team_id": "17362",
       "team_name": "Minnesota United FC",
       "team_short_name": "Minnesota",
@@ -437,7 +455,7 @@
       "recent_form": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team_id": "184",
       "team_name": "Colorado Rapids",
       "team_short_name": "Colorado",
@@ -455,7 +473,7 @@
       "recent_form": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team_id": "187",
       "team_name": "LA Galaxy",
       "team_short_name": "LA Galaxy",
@@ -470,24 +488,6 @@
       "goal_diff": -5,
       "goal_diff_display": "-5",
       "points": 22,
-      "recent_form": []
-    },
-    {
-      "rank": 12,
-      "team_id": "9723",
-      "team_name": "Portland Timbers",
-      "team_short_name": "Portland",
-      "team_abbr": "POR",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
-      "played": 17,
-      "wins": 6,
-      "draws": 3,
-      "losses": 8,
-      "goals_for": 31,
-      "goals_against": 32,
-      "goal_diff": -1,
-      "goal_diff_display": "-1",
-      "points": 21,
       "recent_form": []
     },
     {
