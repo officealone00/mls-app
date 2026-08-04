@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-03T21:56:43.984Z",
+  "updated_at": "2026-08-04T05:36:49.624Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -86,7 +86,7 @@
     "opponent_short": "San Diego",
     "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
     "venue": "BMO Stadium",
-    "days_until": 13,
+    "days_until": 12,
     "preview": ""
   }
 }
