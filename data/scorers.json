@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-09T04:09:40.726Z",
+  "updated_at": "2026-08-09T09:28:07.244Z",
   "scorers": [
     {
       "rank": 1,
@@ -64,6 +64,21 @@
     },
     {
       "rank": 5,
+      "player_id": "233578",
+      "player_name": "Guilherme Augusto",
+      "player_name_ko": "",
+      "nationality": "Brazil",
+      "team_id": "6077",
+      "team_name": "Houston Dynamo FC",
+      "team_short": "Houston",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/233578.png",
+      "played": 0,
+      "goals": 11,
+      "penalties": 0
+    },
+    {
+      "rank": 6,
       "player_id": "295339",
       "player_name": "Preston Judd",
       "player_name_ko": "",
@@ -78,7 +93,7 @@
       "penalties": 0
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player_id": "186324",
       "player_name": "Marcus Ingvartsen",
       "player_name_ko": "",
@@ -93,7 +108,7 @@
       "penalties": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "player_id": "251694",
       "player_name": "Kévin Denkey",
       "player_name_ko": "",
@@ -108,7 +123,7 @@
       "penalties": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "player_id": "86436",
       "player_name": "Evander",
       "player_name_ko": "",
@@ -123,7 +138,7 @@
       "penalties": 0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "player_id": "233401",
       "player_name": "Martín Ojeda",
       "player_name_ko": "",
@@ -138,7 +153,7 @@
       "penalties": 0
     },
     {
-      "rank": 10,
+      "rank": 11,
       "player_id": "313068",
       "player_name": "Tai Baribo",
       "player_name_ko": "",
@@ -153,7 +168,7 @@
       "penalties": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "player_id": "227627",
       "player_name": "Sam Surridge",
       "player_name_ko": "",
@@ -168,7 +183,7 @@
       "penalties": 0
     },
     {
-      "rank": 12,
+      "rank": 13,
       "player_id": "213304",
       "player_name": "Denis Bouanga",
       "player_name_ko": "",
@@ -183,7 +198,7 @@
       "penalties": 0
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player_id": "263585",
       "player_name": "Milan Iloski",
       "player_name_ko": "",
@@ -198,7 +213,7 @@
       "penalties": 0
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "249490",
       "player_name": "Brian White",
       "player_name_ko": "",
@@ -208,21 +223,6 @@
       "team_short": "Vancouver",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/249490.png",
-      "played": 0,
-      "goals": 10,
-      "penalties": 0
-    },
-    {
-      "rank": 15,
-      "player_id": "233578",
-      "player_name": "Guilherme Augusto",
-      "player_name_ko": "",
-      "nationality": "Brazil",
-      "team_id": "6077",
-      "team_name": "Houston Dynamo FC",
-      "team_short": "Houston",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/233578.png",
       "played": 0,
       "goals": 10,
       "penalties": 0
@@ -241,7 +241,7 @@
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/86436.png",
       "played": 0,
-      "assists": 10
+      "assists": 11
     },
     {
       "rank": 2,
@@ -357,20 +357,6 @@
     },
     {
       "rank": 10,
-      "player_id": "279180",
-      "player_name": "Pavel Bucha",
-      "player_name_ko": "",
-      "nationality": "Czechia",
-      "team_id": "18267",
-      "team_name": "FC Cincinnati",
-      "team_short": "Cincinnati",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/279180.png",
-      "played": 0,
-      "assists": 7
-    },
-    {
-      "rank": 11,
       "player_id": "233578",
       "player_name": "Guilherme Augusto",
       "player_name_ko": "",
@@ -380,6 +366,20 @@
       "team_short": "Houston",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/233578.png",
+      "played": 0,
+      "assists": 7
+    },
+    {
+      "rank": 11,
+      "player_id": "279180",
+      "player_name": "Pavel Bucha",
+      "player_name_ko": "",
+      "nationality": "Czechia",
+      "team_id": "18267",
+      "team_name": "FC Cincinnati",
+      "team_short": "Cincinnati",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/279180.png",
       "played": 0,
       "assists": 7
     },
