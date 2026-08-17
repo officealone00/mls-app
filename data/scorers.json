@@ -1,24 +1,9 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-17T03:39:48.708Z",
+  "updated_at": "2026-08-17T09:29:18.501Z",
   "scorers": [
     {
       "rank": 1,
-      "player_id": "108107",
-      "player_name": "Nicolás Fernández",
-      "player_name_ko": "",
-      "nationality": "Argentina",
-      "team_id": "17606",
-      "team_name": "New York City FC",
-      "team_short": "NYCFC",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/108107.png",
-      "played": 0,
-      "goals": 13,
-      "penalties": 0
-    },
-    {
-      "rank": 2,
       "player_id": "277128",
       "player_name": "Petar Musa",
       "player_name_ko": "",
@@ -28,6 +13,21 @@
       "team_short": "Dallas",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/277128.png",
+      "played": 0,
+      "goals": 14,
+      "penalties": 0
+    },
+    {
+      "rank": 2,
+      "player_id": "108107",
+      "player_name": "Nicolás Fernández",
+      "player_name_ko": "",
+      "nationality": "Argentina",
+      "team_id": "17606",
+      "team_name": "New York City FC",
+      "team_short": "NYCFC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/108107.png",
       "played": 0,
       "goals": 13,
       "penalties": 0
@@ -399,6 +399,20 @@
     },
     {
       "rank": 13,
+      "player_id": "259951",
+      "player_name": "Maren Haile-Selassie",
+      "player_name_ko": "",
+      "nationality": "Switzerland",
+      "team_id": "182",
+      "team_name": "Chicago Fire FC",
+      "team_short": "Chicago",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/259951.png",
+      "played": 0,
+      "assists": 7
+    },
+    {
+      "rank": 14,
       "player_id": "315594",
       "player_name": "Telasco Segovia",
       "player_name_ko": "",
@@ -412,7 +426,7 @@
       "assists": 7
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "295771",
       "player_name": "Sebastian Berhalter",
       "player_name_ko": "",
@@ -422,20 +436,6 @@
       "team_short": "Vancouver",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/295771.png",
-      "played": 0,
-      "assists": 7
-    },
-    {
-      "rank": 15,
-      "player_id": "333752",
-      "player_name": "Niko Tsakiris",
-      "player_name_ko": "",
-      "nationality": "USA",
-      "team_id": "191",
-      "team_name": "San Jose Earthquakes",
-      "team_short": "San Jose",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/333752.png",
       "played": 0,
       "assists": 7
     }
