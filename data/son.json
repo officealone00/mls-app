@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-20T03:37:21.615Z",
+  "updated_at": "2026-08-20T09:22:43.676Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -11,14 +11,14 @@
     "color": "#000000",
     "rank": 3,
     "points": 34,
-    "played": 20,
+    "played": 21,
     "wins": 10,
     "draws": 4,
-    "losses": 6,
+    "losses": 7,
     "goals_for": 35,
-    "goals_against": 20,
-    "goal_diff": 15,
-    "goal_diff_display": "+15",
+    "goals_against": 21,
+    "goal_diff": 14,
+    "goal_diff_display": "+14",
     "recent_form": []
   },
   "son": {
