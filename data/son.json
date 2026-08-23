@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-23T03:40:53.695Z",
+  "updated_at": "2026-08-23T09:17:07.578Z",
   "lafc": {
     "team_id": "18966",
     "team_name": "LAFC",
@@ -10,13 +10,13 @@
     "venue": "BMO Stadium",
     "color": "#000000",
     "rank": 3,
-    "points": 34,
-    "played": 21,
+    "points": 35,
+    "played": 22,
     "wins": 10,
-    "draws": 4,
+    "draws": 5,
     "losses": 7,
-    "goals_for": 35,
-    "goals_against": 21,
+    "goals_for": 36,
+    "goals_against": 22,
     "goal_diff": 14,
     "goal_diff_display": "+14",
     "recent_form": []
