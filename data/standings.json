@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-23T21:10:47.394Z",
+  "updated_at": "2026-08-24T03:42:57.922Z",
   "eastern": [
     {
       "rank": 1,
@@ -63,15 +63,15 @@
       "team_short_name": "New England",
       "team_abbr": "NE",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
-      "played": 20,
+      "played": 21,
       "wins": 10,
-      "draws": 3,
+      "draws": 4,
       "losses": 7,
-      "goals_for": 32,
-      "goals_against": 25,
+      "goals_for": 33,
+      "goals_against": 26,
       "goal_diff": 7,
       "goal_diff_display": "+7",
-      "points": 33,
+      "points": 34,
       "recent_form": []
     },
     {
@@ -117,15 +117,15 @@
       "team_short_name": "NYCFC",
       "team_abbr": "NYC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-      "played": 20,
+      "played": 21,
       "wins": 7,
-      "draws": 5,
+      "draws": 6,
       "losses": 8,
-      "goals_for": 34,
-      "goals_against": 29,
+      "goals_for": 35,
+      "goals_against": 30,
       "goal_diff": 5,
       "goal_diff_display": "+5",
-      "points": 26,
+      "points": 27,
       "recent_form": []
     },
     {
@@ -202,6 +202,24 @@
     },
     {
       "rank": 12,
+      "team_id": "18418",
+      "team_name": "Atlanta United FC",
+      "team_short_name": "Atlanta",
+      "team_abbr": "ATL",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+      "played": 21,
+      "wins": 6,
+      "draws": 3,
+      "losses": 12,
+      "goals_for": 25,
+      "goals_against": 36,
+      "goal_diff": -11,
+      "goal_diff_display": "-11",
+      "points": 21,
+      "recent_form": []
+    },
+    {
+      "rank": 13,
       "team_id": "10739",
       "team_name": "Philadelphia Union",
       "team_short_name": "Philadelphia",
@@ -219,7 +237,7 @@
       "recent_form": []
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team_id": "9720",
       "team_name": "CF Montréal",
       "team_short_name": "CF Montréal",
@@ -237,7 +255,7 @@
       "recent_form": []
     },
     {
-      "rank": 14,
+      "rank": 15,
       "team_id": "183",
       "team_name": "Columbus Crew",
       "team_short_name": "Columbus",
@@ -252,24 +270,6 @@
       "goal_diff": -6,
       "goal_diff_display": "-6",
       "points": 20,
-      "recent_form": []
-    },
-    {
-      "rank": 15,
-      "team_id": "18418",
-      "team_name": "Atlanta United FC",
-      "team_short_name": "Atlanta",
-      "team_abbr": "ATL",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
-      "played": 20,
-      "wins": 5,
-      "draws": 3,
-      "losses": 12,
-      "goals_for": 23,
-      "goals_against": 35,
-      "goal_diff": -12,
-      "goal_diff_display": "-12",
-      "points": 18,
       "recent_form": []
     }
   ],
@@ -533,14 +533,14 @@
       "team_short_name": "Kansas City",
       "team_abbr": "SKC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
-      "played": 20,
+      "played": 21,
       "wins": 4,
       "draws": 3,
-      "losses": 13,
-      "goals_for": 19,
-      "goals_against": 49,
-      "goal_diff": -30,
-      "goal_diff_display": "-30",
+      "losses": 14,
+      "goals_for": 20,
+      "goals_against": 51,
+      "goal_diff": -31,
+      "goal_diff_display": "-31",
       "points": 15,
       "recent_form": []
     }
