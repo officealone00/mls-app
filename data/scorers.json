@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-24T03:43:43.049Z",
+  "updated_at": "2026-08-24T09:35:29.820Z",
   "scorers": [
     {
       "rank": 1,
@@ -34,6 +34,21 @@
     },
     {
       "rank": 3,
+      "player_id": "108107",
+      "player_name": "Nicolás Fernández",
+      "player_name_ko": "",
+      "nationality": "Argentina",
+      "team_id": "17606",
+      "team_name": "New York City FC",
+      "team_short": "NYCFC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/108107.png",
+      "played": 0,
+      "goals": 13,
+      "penalties": 0
+    },
+    {
+      "rank": 4,
       "player_id": "86436",
       "player_name": "Evander",
       "player_name_ko": "",
@@ -48,7 +63,7 @@
       "penalties": 0
     },
     {
-      "rank": 4,
+      "rank": 5,
       "player_id": "275798",
       "player_name": "Prince Owusu",
       "player_name_ko": "",
@@ -58,21 +73,6 @@
       "team_short": "CF Montréal",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/275798.png",
-      "played": 0,
-      "goals": 13,
-      "penalties": 0
-    },
-    {
-      "rank": 5,
-      "player_id": "108107",
-      "player_name": "Nicolás Fernández",
-      "player_name_ko": "",
-      "nationality": "Argentina",
-      "team_id": "17606",
-      "team_name": "New York City FC",
-      "team_short": "NYCFC",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/108107.png",
       "played": 0,
       "goals": 13,
       "penalties": 0
