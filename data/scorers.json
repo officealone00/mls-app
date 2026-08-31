@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-08-30T22:59:31.004Z",
+  "updated_at": "2026-08-31T09:00:40.041Z",
   "scorers": [
     {
       "rank": 1,
@@ -357,6 +357,34 @@
     },
     {
       "rank": 10,
+      "player_id": "359922",
+      "player_name": "Joaquín Valiente",
+      "player_name_ko": "",
+      "nationality": "Uruguay",
+      "team_id": "185",
+      "team_name": "FC Dallas",
+      "team_short": "Dallas",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/359922.png",
+      "played": 0,
+      "assists": 9
+    },
+    {
+      "rank": 11,
+      "player_id": "152168",
+      "player_name": "Carles Gil",
+      "player_name_ko": "",
+      "nationality": "Spain",
+      "team_id": "189",
+      "team_name": "New England Revolution",
+      "team_short": "New England",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/152168.png",
+      "played": 0,
+      "assists": 8
+    },
+    {
+      "rank": 12,
       "player_id": "279180",
       "player_name": "Pavel Bucha",
       "player_name_ko": "",
@@ -370,7 +398,7 @@
       "assists": 8
     },
     {
-      "rank": 11,
+      "rank": 13,
       "player_id": "315594",
       "player_name": "Telasco Segovia",
       "player_name_ko": "",
@@ -384,7 +412,7 @@
       "assists": 8
     },
     {
-      "rank": 12,
+      "rank": 14,
       "player_id": "186466",
       "player_name": "Philip Zinckernagel",
       "player_name_ko": "",
@@ -398,7 +426,7 @@
       "assists": 8
     },
     {
-      "rank": 13,
+      "rank": 15,
       "player_id": "171573",
       "player_name": "Albert Rusnák",
       "player_name_ko": "",
@@ -410,34 +438,6 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/171573.png",
       "played": 0,
       "assists": 8
-    },
-    {
-      "rank": 14,
-      "player_id": "359922",
-      "player_name": "Joaquín Valiente",
-      "player_name_ko": "",
-      "nationality": "Uruguay",
-      "team_id": "185",
-      "team_name": "FC Dallas",
-      "team_short": "Dallas",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/359922.png",
-      "played": 0,
-      "assists": 8
-    },
-    {
-      "rank": 15,
-      "player_id": "337149",
-      "player_name": "Agustin Ojeda",
-      "player_name_ko": "",
-      "nationality": "Argentina",
-      "team_id": "17606",
-      "team_name": "New York City FC",
-      "team_short": "NYCFC",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/337149.png",
-      "played": 0,
-      "assists": 7
     }
   ]
 }
