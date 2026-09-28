@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-09-27T23:27:31.767Z",
+  "updated_at": "2026-09-28T09:03:11.990Z",
   "eastern": [
     {
       "rank": 1,
@@ -45,14 +45,14 @@
       "team_short_name": "Miami",
       "team_abbr": "MIA",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-      "played": 26,
+      "played": 27,
       "wins": 12,
       "draws": 10,
-      "losses": 4,
-      "goals_for": 63,
-      "goals_against": 48,
-      "goal_diff": 15,
-      "goal_diff_display": "+15",
+      "losses": 5,
+      "goals_for": 64,
+      "goals_against": 50,
+      "goal_diff": 14,
+      "goal_diff_display": "+14",
       "points": 46,
       "recent_form": []
     },
@@ -202,6 +202,24 @@
     },
     {
       "rank": 12,
+      "team_id": "183",
+      "team_name": "Columbus Crew",
+      "team_short_name": "Columbus",
+      "team_abbr": "CLB",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "played": 27,
+      "wins": 8,
+      "draws": 5,
+      "losses": 14,
+      "goals_for": 39,
+      "goals_against": 43,
+      "goal_diff": -4,
+      "goal_diff_display": "-4",
+      "points": 29,
+      "recent_form": []
+    },
+    {
+      "rank": 13,
       "team_id": "7318",
       "team_name": "Toronto FC",
       "team_short_name": "Toronto",
@@ -219,7 +237,7 @@
       "recent_form": []
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team_id": "18418",
       "team_name": "Atlanta United FC",
       "team_short_name": "Atlanta",
@@ -234,24 +252,6 @@
       "goal_diff": -13,
       "goal_diff_display": "-13",
       "points": 27,
-      "recent_form": []
-    },
-    {
-      "rank": 14,
-      "team_id": "183",
-      "team_name": "Columbus Crew",
-      "team_short_name": "Columbus",
-      "team_abbr": "CLB",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-      "played": 26,
-      "wins": 7,
-      "draws": 5,
-      "losses": 14,
-      "goals_for": 37,
-      "goals_against": 42,
-      "goal_diff": -5,
-      "goal_diff_display": "-5",
-      "points": 26,
       "recent_form": []
     },
     {
