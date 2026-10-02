@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-02T00:18:08.993Z",
+  "updated_at": "2026-10-02T09:07:36.410Z",
   "scorers": [
     {
       "rank": 1,
@@ -287,6 +287,20 @@
     },
     {
       "rank": 5,
+      "player_id": "171573",
+      "player_name": "Albert Rusnák",
+      "player_name_ko": "",
+      "nationality": "Slovakia",
+      "team_id": "9726",
+      "team_name": "Seattle Sounders FC",
+      "team_short": "Seattle",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/171573.png",
+      "played": 0,
+      "assists": 12
+    },
+    {
+      "rank": 6,
       "player_id": "149945",
       "player_name": "Son Heung-Min",
       "player_name_ko": "손흥민",
@@ -300,7 +314,7 @@
       "assists": 12
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player_id": "86436",
       "player_name": "Evander",
       "player_name_ko": "",
@@ -310,20 +324,6 @@
       "team_short": "Cincinnati",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/86436.png",
-      "played": 0,
-      "assists": 12
-    },
-    {
-      "rank": 7,
-      "player_id": "171573",
-      "player_name": "Albert Rusnák",
-      "player_name_ko": "",
-      "nationality": "Slovakia",
-      "team_id": "9726",
-      "team_name": "Seattle Sounders FC",
-      "team_short": "Seattle",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/171573.png",
       "played": 0,
       "assists": 12
     },
