@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-05T09:44:36.314Z",
+  "updated_at": "2026-10-05T21:43:58.733Z",
   "scorers": [
     {
       "rank": 1,
@@ -232,9 +232,9 @@
     {
       "rank": 1,
       "player_id": "250454",
-      "player_name": "Anders Dreyer",
+      "player_name": "",
       "player_name_ko": "",
-      "nationality": "Denmark",
+      "nationality": "",
       "team_id": "22529",
       "team_name": "San Diego FC",
       "team_short": "San Diego",
