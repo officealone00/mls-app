@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-07T00:13:02.108Z",
+  "updated_at": "2026-10-07T09:28:00.176Z",
   "eastern": [
     {
       "rank": 1,
@@ -58,6 +58,24 @@
     },
     {
       "rank": 4,
+      "team_id": "182",
+      "team_name": "Chicago Fire FC",
+      "team_short_name": "Chicago",
+      "team_abbr": "CHI",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+      "played": 27,
+      "wins": 13,
+      "draws": 6,
+      "losses": 8,
+      "goals_for": 49,
+      "goals_against": 39,
+      "goal_diff": 10,
+      "goal_diff_display": "+10",
+      "points": 45,
+      "recent_form": []
+    },
+    {
+      "rank": 5,
       "team_id": "21300",
       "team_name": "Charlotte FC",
       "team_short_name": "Charlotte",
@@ -72,24 +90,6 @@
       "goal_diff": 9,
       "goal_diff_display": "+9",
       "points": 43,
-      "recent_form": []
-    },
-    {
-      "rank": 5,
-      "team_id": "182",
-      "team_name": "Chicago Fire FC",
-      "team_short_name": "Chicago",
-      "team_abbr": "CHI",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-      "played": 26,
-      "wins": 12,
-      "draws": 6,
-      "losses": 8,
-      "goals_for": 46,
-      "goals_against": 38,
-      "goal_diff": 8,
-      "goal_diff_display": "+8",
-      "points": 42,
       "recent_form": []
     },
     {
@@ -281,14 +281,14 @@
       "team_short_name": "Vancouver",
       "team_abbr": "VAN",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
-      "played": 26,
+      "played": 27,
       "wins": 15,
       "draws": 5,
-      "losses": 6,
-      "goals_for": 59,
-      "goals_against": 26,
-      "goal_diff": 33,
-      "goal_diff_display": "+33",
+      "losses": 7,
+      "goals_for": 60,
+      "goals_against": 29,
+      "goal_diff": 31,
+      "goal_diff_display": "+31",
       "points": 50,
       "recent_form": []
     },
