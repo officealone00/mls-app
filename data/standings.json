@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-17T17:35:10.737Z",
+  "updated_at": "2026-10-17T22:44:55.891Z",
   "eastern": [
     {
       "rank": 1,
@@ -81,15 +81,15 @@
       "team_short_name": "Charlotte",
       "team_abbr": "CLT",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
-      "played": 29,
+      "played": 30,
       "wins": 13,
-      "draws": 7,
+      "draws": 8,
       "losses": 9,
-      "goals_for": 51,
-      "goals_against": 43,
+      "goals_for": 53,
+      "goals_against": 45,
       "goal_diff": 8,
       "goal_diff_display": "+8",
-      "points": 46,
+      "points": 47,
       "recent_form": []
     },
     {
@@ -99,15 +99,15 @@
       "team_short_name": "Philadelphia",
       "team_abbr": "PHI",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
-      "played": 29,
+      "played": 30,
       "wins": 13,
-      "draws": 6,
+      "draws": 7,
       "losses": 10,
-      "goals_for": 59,
-      "goals_against": 46,
+      "goals_for": 61,
+      "goals_against": 48,
       "goal_diff": 13,
       "goal_diff_display": "+13",
-      "points": 45,
+      "points": 46,
       "recent_form": []
     },
     {
