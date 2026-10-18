@@ -35,7 +35,7 @@ export default function ScorersPage() {
   return (
     <div className="min-h-screen bg-toss-gray-50">
       {/* Header */}
-      <div className="px-5 pt-14 pb-4 bg-white flex items-end justify-between">
+      <div className="px-5 pt-5 pb-4 bg-white flex items-end justify-between">
         <div>
           <h1 className="toss-title text-[24px]">⚽ MLS 득점왕</h1>
           <p className="toss-caption mt-1">2026 시즌 골 · 도움 순위</p>

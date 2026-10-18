@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Heart, Settings, RefreshCw, Calendar, MapPin, Clock } from 'lucide-react';
+import { Heart, Settings, RefreshCw, Calendar, MapPin, Clock, Share2 } from 'lucide-react';
+import { shareWithTossLink, logEvent } from '@/utils/tossGrowth';
 import {
   api,
   type StandingsResponse,
@@ -86,7 +87,7 @@ export default function StandingsPage({ conference }: Props) {
   return (
     <div className="min-h-screen bg-toss-gray-50">
       {/* Header */}
-      <div className="px-5 pt-14 pb-4 flex items-end justify-between bg-white">
+      <div className="px-5 pt-5 pb-4 flex items-end justify-between bg-white">
         <div>
           <h1 className="toss-title text-[24px]">{titleEmoji} {titleText}</h1>
           <p className="toss-caption mt-1">
@@ -117,6 +118,22 @@ export default function StandingsPage({ conference }: Props) {
           </button>
         </div>
       </div>
+
+      {/* 응원팀 선택 CTA (진입 시 자동 팝업 대신 화면 안에서 고르게) */}
+      {!favorite && !loading && (
+        <div className="px-5 mb-3 mt-2">
+          <button
+            onClick={() => setShowModal(true)}
+            className="w-full bg-gradient-to-r from-toss-blue to-blue-500 text-white rounded-2xl p-4 flex items-center justify-between"
+          >
+            <div className="text-left">
+              <p className="text-sm opacity-90">⭐ 나의 응원팀은?</p>
+              <p className="font-bold mt-0.5">응원팀 고르고 내 팀 리포트 받기</p>
+            </div>
+            <Heart size={24} />
+          </button>
+        </div>
+      )}
 
       {/* 즐겨찾기 카드 */}
       {favorite && favoriteRow && (
@@ -348,6 +365,21 @@ function FavoriteTeamCard({
         style={{ backgroundColor: info.color }}
       >
         📊 상세 분석 리포트 보기
+      </button>
+      {/* 📤 내 팀 순위 공유 (토스 공유 링크) */}
+      <button
+        onClick={() => {
+          logEvent('share_team_rank', { team: teamName });
+          void shareWithTossLink({
+            path: 'intoss://mls-standings',
+            message: `⚽ ${info.fullName} 지금 ${row.rank}위! (승점 ${row.points})\n토스에서 MLS 순위 바로 보기 👇`,
+          });
+        }}
+        className="w-full mt-2 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5 bg-white"
+        style={{ color: info.color, border: `1px solid ${info.color}33` }}
+      >
+        <Share2 size={14} />
+        친구에게 우리 팀 순위 공유하기
       </button>
     </div>
   );

@@ -74,8 +74,11 @@ function httpsGetOnce(url, { silent404 = false, silentAll = false } = {}) {
       url,
       {
         headers: {
-          'User-Agent': 'Mozilla/5.0 (compatible; mls-app-scraper/4.0)',
-          Accept: 'application/json',
+          // (2026-10-18) 봇 이름 UA는 ESPN(Akamai)이 403으로 차단 → 일반 브라우저 UA 사용
+          'User-Agent':
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+          Accept: 'application/json, text/plain, */*',
+          'Accept-Language': 'en-US,en;q=0.9',
         },
       },
       (res) => {
@@ -103,6 +106,16 @@ function httpsGetOnce(url, { silent404 = false, silentAll = false } = {}) {
     });
     req.setTimeout(30000, () => req.destroy(new Error('Request timeout')));
   });
+}
+
+// ESPN 점수 값 정규화: 1 | "1" | { value: 1, displayValue: "1" } → 1 (없으면 NaN)
+function scoreOf(raw) {
+  if (raw === null || raw === undefined) return NaN;
+  if (typeof raw === 'object') {
+    if (typeof raw.value === 'number') return Math.round(raw.value);
+    return parseInt(raw.displayValue, 10);
+  }
+  return parseInt(raw, 10);
 }
 
 // 동시 호출 제한
@@ -225,8 +238,9 @@ function parseEventForTeam(event, teamId) {
   const completed = status === 'post';
   const inProgress = status === 'in';
 
-  const myScore = parseInt(me.score, 10);
-  const oppScore = parseInt(opp.score, 10);
+  // (2026-10-18) ESPN score는 숫자/문자열 또는 { value, displayValue } 객체로 온다 → 둘 다 처리
+  const myScore = scoreOf(me.score);
+  const oppScore = scoreOf(opp.score);
   let result = null;
   if (completed && !isNaN(myScore) && !isNaN(oppScore)) {
     if (myScore > oppScore) result = 'W';
@@ -349,13 +363,23 @@ async function fetchAllTeamSchedules(allTeams) {
         const y = ev.date ? new Date(ev.date).getUTCFullYear() : null;
         return y === null || y === SEASON || y === SEASON - 1;
       });
+      // (2026-10-18) 기본 schedule API는 지난 경기만 준다 → fixture=true로 다가오는 경기 보강 (다음 경기 카드용)
+      try {
+        const fx = await httpsGet(`${TEAM_SCHEDULE_URL(team.team_id)}&fixture=true`, { silent404: true, retries: 2 });
+        const seen = new Set(events.map((e) => String(e.id)));
+        for (const ev of fx?.events || []) {
+          if (!seen.has(String(ev.id))) events.push(ev);
+        }
+      } catch (e) {
+        console.warn(`    WARN: ${team.team_short_name} 다가오는 경기 조회 실패: ${e.message}`);
+      }
       cache[team.team_id] = events;
     } catch (e) {
       console.warn(`    WARN: ${team.team_short_name} 일정 실패: ${e.message}`);
       cache[team.team_id] = [];
     }
   });
-  await pLimit(tasks, 6);
+  await pLimit(tasks, 3);
   const totalEvents = Object.values(cache).reduce((sum, ev) => sum + ev.length, 0);
   console.log(`  팀별 event 총 ${totalEvents}건 수집`);
   return cache;

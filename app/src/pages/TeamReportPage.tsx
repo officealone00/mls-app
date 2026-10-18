@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-  ChevronLeft,
   Trophy,
   Shield,
   Swords,
@@ -31,7 +30,8 @@ import {
   type TeamReport,
   type AnalysisCard as ExpertCard,
 } from '@/utils/teamAnalytics';
-import RewardedAd from '@/components/RewardedAd';
+import RewardedAd, { preloadReportAd } from '@/components/RewardedAd';
+import { shareWithTossLink, logEvent, requestReviewOnce } from '@/utils/tossGrowth';
 import BannerAd from '@/components/BannerAd';
 import TeamLogo from '@/components/TeamLogo';
 
@@ -74,8 +74,7 @@ export default function TeamReportPage() {
         console.warn('[TeamReport] load error:', e);
       } finally {
         setLoading(false);
-        // 데이터 로드 완료 후 자동으로 리워드 광고 표시
-        setAdShown(true);
+        // (2026-10-18) 진입하자마자 리워드 광고를 자동으로 띄우던 동작 제거 → 사용자가 버튼을 눌러 선택
       }
     })();
   }, [favorite]);
@@ -83,14 +82,21 @@ export default function TeamReportPage() {
   const handleReward = () => {
     unlockedRef.current = true;
     setUnlocked(true);
+    // 대표 전환 이벤트: 콘솔 '핵심 지표'에 report_unlocked 로 등록
+    logEvent('report_unlocked', { team: favorite || '' });
+    // 핵심 행동을 마친 뒤 리뷰 요청 (기기당 1번)
+    setTimeout(() => void requestReviewOnce('mls-review-asked'), 4000);
   };
 
   const handleAdClose = () => {
+    // 광고를 끝까지 보지 않고 닫아도 화면은 그대로 두고(잠금 상태 유지) 다시 볼 수 있게 한다
     setAdShown(false);
-    if (!unlockedRef.current) {
-      navigate('/', { replace: true });
-    }
   };
+
+  // 리포트 화면에 들어오면 리워드 광고를 미리 불러 둔다 (정책: 재생 시점 실시간 로딩 금지)
+  useEffect(() => {
+    if (!unlockedRef.current) preloadReportAd();
+  }, []);
 
   if (!favorite) return null;
 
@@ -105,14 +111,7 @@ export default function TeamReportPage() {
   return (
     <div className="min-h-screen bg-toss-gray-50">
       {/* Header */}
-      <div className="px-5 pt-14 pb-4 bg-white flex items-center gap-2">
-        <button
-          onClick={() => navigate('/', { replace: true })}
-          className="p-1 -ml-1 rounded-full hover:bg-toss-gray-100"
-          aria-label="뒤로"
-        >
-          <ChevronLeft size={24} />
-        </button>
+      <div className="px-5 pt-5 pb-4 bg-white flex items-center gap-2">
         <div>
           <h1 className="toss-title text-[22px]">📊 전문가 분석 리포트</h1>
           <p className="toss-caption mt-0.5">{info.fullName}</p>
@@ -166,15 +165,47 @@ export default function TeamReportPage() {
 
           {/* 광고 시청 후 콘텐츠 표시 */}
           {unlocked ? (
-            <ReportContent
-              report={report}
-              themeColor={info.color}
-              teamSchedule={teamSchedule}
-            />
+            <>
+              <ReportContent
+                report={report}
+                themeColor={info.color}
+                teamSchedule={teamSchedule}
+              />
+              {/* 📤 리포트 공유 */}
+              <div className="px-5 mt-3 mb-8">
+                <button
+                  onClick={() => {
+                    logEvent('share_report', { team: favorite });
+                    void shareWithTossLink({
+                      path: 'intoss://mls-standings',
+                      message: `📊 ${info.fullName} 전문가 분석 리포트 나왔어요!\n토스 'MLS 순위'에서 우리 팀 분석 보기 👇`,
+                    });
+                  }}
+                  className="w-full py-3.5 rounded-xl font-bold text-sm text-white"
+                  style={{ backgroundColor: info.color }}
+                >
+                  📤 친구에게 우리 팀 리포트 공유하기
+                </button>
+              </div>
+            </>
           ) : (
+            // 광고는 사용자가 직접 고를 때만 — 무엇을 얻는지와 광고가 나온다는 걸 미리 알린다
             <div className="px-5 mt-6">
-              <div className="text-center text-toss-gray-400 text-sm">
-                광고 시청 후 분석 리포트가 열려요
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
+                <p className="text-3xl mb-2">🎬</p>
+                <p className="font-bold text-toss-gray-900 mb-1">전문가 분석 리포트</p>
+                <p className="text-xs text-toss-gray-600 mb-4 leading-relaxed">
+                  최근 5경기 폼 · 플레이오프 전망 · 예상 스코어까지
+                  <br />
+                  짧은 광고를 보면 바로 열려요
+                </p>
+                <button
+                  onClick={() => setAdShown(true)}
+                  className="w-full py-3 rounded-xl font-bold text-white text-sm"
+                  style={{ backgroundColor: info.color }}
+                >
+                  광고 보고 리포트 열기
+                </button>
               </div>
             </div>
           )}
