@@ -43,13 +43,16 @@ export default function PlayoffRaceCard({ standings, conference, favorite }: { s
   const lafc = race.find((r) => r.row.team_id === LAFC_ID);
   const fav = favorite ? race.find((r) => nameOf(r.row) === favorite) : undefined;
   const maxLeft = Math.max(...race.map((r) => r.remaining));
+  const minLeft = Math.min(...race.map((r) => r.remaining));
+  // 팀마다 치른 경기 수가 달라요 (예: 신시내티 28경기, 대부분 30~31경기). 34경기에서 뺀 값이에요.
+  const leftText = minLeft === maxLeft ? `팀당 남은 ${maxLeft}경기` : `팀마다 남은 ${minLeft}~${maxLeft}경기`;
   const focus = [...new Map([...(fav ? [fav] : []), ...(lafc ? [lafc] : []), ...alive].map((r) => [r.row.team_id, r])).values()];
 
   return (
     <div className="rounded-2xl overflow-hidden bg-white">
       <div className="px-4 pt-4 pb-3" style={{ background: 'linear-gradient(135deg, #1E3A8A 0%, #7C3AED 100%)' }}>
         <p className="text-white/90 text-[12px] font-semibold">
-          {conference === 'eastern' ? '동부' : '서부'} · 팀당 남은 최대 {maxLeft}경기 · 11월 7일 마지막 경기
+          {conference === 'eastern' ? '동부' : '서부'} · {leftText} · 11월 7일 마지막 경기
         </p>
         <p className="text-white text-[18px] font-bold mt-0.5">🔥 플레이오프 남은 {Math.max(0, PLAYOFF_SPOTS - inRows.length)}자리</p>
       </div>

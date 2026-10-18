@@ -17,6 +17,7 @@ import BannerAd from '@/components/BannerAd';
 import FavoriteTeamModal from '@/components/FavoriteTeamModal';
 import TeamLogo from '@/components/TeamLogo';
 import PlayoffRaceCard from '@/components/PlayoffRaceCard';
+import { daysUntilKST, ddayLabel } from '@/utils/dday';
 
 interface Props {
   conference: Conference;
@@ -433,12 +434,12 @@ function NextMatchCard({
           >
             ⚽ 다음 경기
           </span>
-          {next.days_until !== undefined && next.days_until !== null && (
+          {daysUntilKST(next.date, next.days_until) !== null && (
             <span
               className="text-[10px] font-bold px-2 py-0.5 rounded-full text-white"
               style={{ backgroundColor: color }}
             >
-              D-{next.days_until}
+              {ddayLabel(daysUntilKST(next.date, next.days_until)!)}
             </span>
           )}
         </div>

@@ -35,6 +35,7 @@ import RewardedAd, { preloadReportAd } from '@/components/RewardedAd';
 import { shareWithTossLink, logEvent, requestReviewOnce } from '@/utils/tossGrowth';
 import BannerAd from '@/components/BannerAd';
 import TeamLogo from '@/components/TeamLogo';
+import { daysUntilKST, ddayLabel } from '@/utils/dday';
 
 export default function TeamReportPage() {
   const navigate = useNavigate();
@@ -509,13 +510,12 @@ function ReportContent({
               >
                 ⚽ 다음 경기
               </span>
-              {teamSchedule.next.days_until !== undefined &&
-                teamSchedule.next.days_until !== null && (
+              {daysUntilKST(teamSchedule.next.date, teamSchedule.next.days_until) !== null && (
                   <span
                     className="text-[10px] font-bold px-2 py-0.5 rounded-full text-white"
                     style={{ backgroundColor: themeColor }}
                   >
-                    D-{teamSchedule.next.days_until}
+                    {ddayLabel(daysUntilKST(teamSchedule.next.date, teamSchedule.next.days_until)!)}
                   </span>
                 )}
             </div>

@@ -215,15 +215,12 @@ function toKSTISO(isoDate) {
 }
 
 function daysUntil(isoDate) {
+  // 한국 날짜 기준 (오늘 00시 ~ 경기일 00시). 시간 차이를 올림하면 하루가 더 붙어요.
   if (!isoDate) return null;
-  try {
-    const target = new Date(isoDate);
-    const now = new Date();
-    const diff = target.getTime() - now.getTime();
-    return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
-  } catch {
-    return null;
-  }
+  const t = new Date(isoDate).getTime();
+  if (Number.isNaN(t)) return null;
+  const day = (ms) => Math.floor((ms + 9 * 3600e3) / 86400e3);
+  return Math.max(0, day(t) - day(Date.now()));
 }
 
 function parseEventForTeam(event, teamId) {

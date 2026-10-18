@@ -19,6 +19,7 @@ import {
 import { LAFC_TEAM_NAME, getTeam, getTeamByTeamId } from '@/data/teams';
 import BannerAd from '@/components/BannerAd';
 import TeamLogo from '@/components/TeamLogo';
+import { daysUntilKST, ddayLabel } from '@/utils/dday';
 
 export default function SonPage() {
   const [son, setSon] = useState<SonResponse | null>(null);
@@ -320,7 +321,7 @@ export default function SonPage() {
                 className="text-[11px] font-bold px-2 py-0.5 rounded-md"
                 style={{ backgroundColor: '#3182F6', color: '#fff' }}
               >
-                D-{son.next_match.days_until}
+                {ddayLabel(daysUntilKST(son.next_match.date, son.next_match.days_until) ?? 0)}
               </span>
             </div>
 
