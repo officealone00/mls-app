@@ -6,6 +6,7 @@ import ScorersPage from '@/pages/ScorersPage';
 import TeamReportPage from '@/pages/TeamReportPage';
 import BottomNav from '@/components/BottomNav';
 import { useTossBackEvent } from '@/hooks/useTossBackEvent';
+import { closeTopSheet } from '@/lib/sheetStack';
 import FavoriteTeamModal from '@/components/FavoriteTeamModal';
 import {
   markOnboarded,
@@ -31,6 +32,8 @@ function AppShell() {
   // - 이전 화면이 있으면: 이전 화면으로 이동
   // - 첫 화면이면: 미니앱 종료(closeView)
   useTossBackEvent(() => {
+    // 열린 바텀시트부터 닫기 (2026-10-19)
+    if (closeTopSheet()) return true;
     if (showOnboarding) {
       setShowOnboarding(false);
       return true;

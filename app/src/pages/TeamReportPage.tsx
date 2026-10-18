@@ -30,6 +30,7 @@ import {
   type TeamReport,
   type AnalysisCard as ExpertCard,
 } from '@/utils/teamAnalytics';
+import { ConfirmSheet } from '@/components/BottomSheet';
 import RewardedAd, { preloadReportAd } from '@/components/RewardedAd';
 import { shareWithTossLink, logEvent, requestReviewOnce } from '@/utils/tossGrowth';
 import BannerAd from '@/components/BannerAd';
@@ -43,6 +44,7 @@ export default function TeamReportPage() {
   const [schedule, setSchedule] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [adShown, setAdShown] = useState(false);
+  const [ask, setAsk] = useState(false);
   const [unlocked, setUnlocked] = useState(false);
   const unlockedRef = useRef(false);
 
@@ -200,7 +202,7 @@ export default function TeamReportPage() {
                   짧은 광고를 보면 바로 열려요
                 </p>
                 <button
-                  onClick={() => setAdShown(true)}
+                  onClick={() => setAsk(true)}
                   className="w-full py-3 rounded-xl font-bold text-white text-sm"
                   style={{ backgroundColor: info.color }}
                 >
@@ -211,6 +213,17 @@ export default function TeamReportPage() {
           )}
         </>
       )}
+
+      {/* 광고 전에 꼭 물어보기 (2026-10-19) */}
+      <ConfirmSheet
+        open={ask}
+        desc={'짧은 광고를 끝까지 보면\n우리 팀 분석 리포트를 볼 수 있어요.'}
+        onClose={() => setAsk(false)}
+        onConfirm={() => {
+          setAsk(false);
+          setAdShown(true);
+        }}
+      />
 
       {/* 리워드 광고 모달 */}
       {adShown && (

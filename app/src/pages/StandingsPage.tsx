@@ -16,6 +16,7 @@ import { getTeam, getTeamByTeamId, type Conference } from '@/data/teams';
 import BannerAd from '@/components/BannerAd';
 import FavoriteTeamModal from '@/components/FavoriteTeamModal';
 import TeamLogo from '@/components/TeamLogo';
+import PlayoffRaceCard from '@/components/PlayoffRaceCard';
 
 interface Props {
   conference: Conference;
@@ -118,6 +119,13 @@ export default function StandingsPage({ conference }: Props) {
           </button>
         </div>
       </div>
+
+      {/* 🔥 플레이오프 진출 경쟁 (2026-10-19) */}
+      {!loading && standings.length > 0 && (
+        <div className="px-5 mt-3 mb-3">
+          <PlayoffRaceCard standings={standings} conference={conference} favorite={favorite} />
+        </div>
+      )}
 
       {/* 응원팀 선택 CTA (진입 시 자동 팝업 대신 화면 안에서 고르게) */}
       {!favorite && !loading && (
