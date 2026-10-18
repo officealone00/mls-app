@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-18T12:50:30.608Z",
+  "updated_at": "2026-10-18T15:44:26.944Z",
   "schedule": {
     "182": {
       "last": {
@@ -30,7 +30,7 @@
         "opponent_short": "Atlanta",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
         "venue": "Mercedes-Benz Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 14,
@@ -79,7 +79,7 @@
         "opponent_short": "Cincinnati",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
         "venue": "TQL Stadium",
-        "days_until": 1,
+        "days_until": 0,
         "round": "",
         "opponent_stats": {
           "rank": 9,
@@ -128,7 +128,7 @@
         "opponent_short": "Vancouver",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
         "venue": "Dick's Sporting Goods Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 1,
@@ -177,7 +177,7 @@
         "opponent_short": "San Jose",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
         "venue": "Toyota Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 4,
@@ -226,7 +226,7 @@
         "opponent_short": "Austin",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
         "venue": "Sporting Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 14,
@@ -275,7 +275,7 @@
         "opponent_short": "LAFC",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
         "venue": "BMO Stadium",
-        "days_until": 8,
+        "days_until": 7,
         "round": "",
         "opponent_stats": {
           "rank": 6,
@@ -324,7 +324,7 @@
         "opponent_short": "Philadelphia",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
         "venue": "Subaru Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 6,
@@ -373,7 +373,7 @@
         "opponent_short": "Miami",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
         "venue": "Sports Illustrated Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 2,
@@ -422,7 +422,7 @@
         "opponent_short": "Dallas",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
         "venue": "Toyota Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 3,
@@ -471,7 +471,7 @@
         "opponent_short": "Cincinnati",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
         "venue": "TQL Stadium",
-        "days_until": 4,
+        "days_until": 3,
         "round": "",
         "opponent_stats": {
           "rank": 9,
@@ -520,7 +520,7 @@
         "opponent_short": "St. Louis",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
         "venue": "America First Field",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 2,
@@ -569,7 +569,7 @@
         "opponent_short": "Minnesota",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
         "venue": "Shell Energy Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 13,
@@ -618,7 +618,7 @@
         "opponent_short": "Columbus",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
         "venue": "ScottsMiracle-Gro Field",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 13,
@@ -667,7 +667,7 @@
         "opponent_short": "Nashville",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
         "venue": "Stade Saputo",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 1,
@@ -716,7 +716,7 @@
         "opponent_short": "Charlotte",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
         "venue": "Providence Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 5,
@@ -765,7 +765,7 @@
         "opponent_short": "San Diego",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
         "venue": "Snapdragon Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 12,
@@ -814,7 +814,7 @@
         "opponent_short": "Colorado",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
         "venue": "Dick's Sporting Goods Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 9,
@@ -863,7 +863,7 @@
         "opponent_short": "New England",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
         "venue": "Subaru Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 3,
@@ -912,7 +912,7 @@
         "opponent_short": "NYCFC",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
         "venue": "Inter&Co Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 11,
@@ -961,7 +961,7 @@
         "opponent_short": "Houston",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
         "venue": "Shell Energy Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 5,
@@ -1010,7 +1010,7 @@
         "opponent_short": "Orlando",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
         "venue": "Inter&Co Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 7,
@@ -1059,7 +1059,7 @@
         "opponent_short": "Columbus",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
         "venue": "TQL Stadium",
-        "days_until": 1,
+        "days_until": 0,
         "round": "",
         "opponent_stats": {
           "rank": 13,
@@ -1108,7 +1108,7 @@
         "opponent_short": "Chicago",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
         "venue": "Mercedes-Benz Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 4,
@@ -1157,7 +1157,7 @@
         "opponent_short": "LA Galaxy",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
         "venue": "BMO Stadium",
-        "days_until": 8,
+        "days_until": 7,
         "round": "",
         "opponent_stats": {
           "rank": 8,
@@ -1206,7 +1206,7 @@
         "opponent_short": "CF Montréal",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
         "venue": "Stade Saputo",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 15,
@@ -1255,7 +1255,7 @@
         "opponent_short": "Red Bull NY",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
         "venue": "Sports Illustrated Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 8,
@@ -1304,7 +1304,7 @@
         "opponent_short": "Kansas City",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
         "venue": "Sporting Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 15,
@@ -1353,7 +1353,7 @@
         "opponent_short": "Portland",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
         "venue": "Providence Park",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 11,
@@ -1402,7 +1402,7 @@
         "opponent_short": "Salt Lake",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
         "venue": "America First Field",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 10,
@@ -1451,7 +1451,7 @@
         "opponent_short": "Seattle",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
         "venue": "Snapdragon Stadium",
-        "days_until": 7,
+        "days_until": 6,
         "round": "",
         "opponent_stats": {
           "rank": 7,
