@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-18T07:29:17.667Z",
+  "updated_at": "2026-10-18T12:50:47.183Z",
   "scorers": [
     {
       "rank": 1,
@@ -14,7 +14,7 @@
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/45843.png",
       "played": 0,
-      "goals": 23,
+      "goals": 25,
       "penalties": 0
     },
     {
@@ -29,7 +29,7 @@
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/277128.png",
       "played": 0,
-      "goals": 19,
+      "goals": 20,
       "penalties": 0
     },
     {
@@ -44,7 +44,7 @@
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/263585.png",
       "played": 0,
-      "goals": 18,
+      "goals": 19,
       "penalties": 0
     },
     {
@@ -64,6 +64,21 @@
     },
     {
       "rank": 5,
+      "player_id": "289941",
+      "player_name": "Kelvin Yeboah",
+      "player_name_ko": "",
+      "nationality": "Italy",
+      "team_id": "17362",
+      "team_name": "Minnesota United FC",
+      "team_short": "Minnesota",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/289941.png",
+      "played": 0,
+      "goals": 17,
+      "penalties": 0
+    },
+    {
+      "rank": 6,
       "player_id": "249490",
       "player_name": "Brian White",
       "player_name_ko": "",
@@ -78,7 +93,7 @@
       "penalties": 0
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player_id": "251694",
       "player_name": "Kévin Denkey",
       "player_name_ko": "",
@@ -93,7 +108,7 @@
       "penalties": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "player_id": "227627",
       "player_name": "Sam Surridge",
       "player_name_ko": "",
@@ -108,7 +123,22 @@
       "penalties": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "player_id": "174548",
+      "player_name": "Hany Mukhtar",
+      "player_name_ko": "",
+      "nationality": "Germany",
+      "team_id": "18986",
+      "team_name": "Nashville SC",
+      "team_short": "Nashville",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/174548.png",
+      "played": 0,
+      "goals": 16,
+      "penalties": 0
+    },
+    {
+      "rank": 10,
       "player_id": "233578",
       "player_name": "Guilherme Augusto",
       "player_name_ko": "",
@@ -123,37 +153,37 @@
       "penalties": 0
     },
     {
-      "rank": 9,
-      "player_id": "289941",
-      "player_name": "Kelvin Yeboah",
+      "rank": 11,
+      "player_id": "295339",
+      "player_name": "Preston Judd",
       "player_name_ko": "",
-      "nationality": "Italy",
-      "team_id": "17362",
-      "team_name": "Minnesota United FC",
-      "team_short": "Minnesota",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/289941.png",
+      "nationality": "USA",
+      "team_id": "191",
+      "team_name": "San Jose Earthquakes",
+      "team_short": "San Jose",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/295339.png",
       "played": 0,
       "goals": 16,
       "penalties": 0
     },
     {
-      "rank": 10,
-      "player_id": "174548",
-      "player_name": "Hany Mukhtar",
+      "rank": 12,
+      "player_id": "313068",
+      "player_name": "Tai Baribo",
       "player_name_ko": "",
-      "nationality": "Germany",
-      "team_id": "18986",
-      "team_name": "Nashville SC",
-      "team_short": "Nashville",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/174548.png",
+      "nationality": "Israel",
+      "team_id": "193",
+      "team_name": "D.C. United",
+      "team_short": "D.C. United",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/313068.png",
       "played": 0,
-      "goals": 15,
+      "goals": 16,
       "penalties": 0
     },
     {
-      "rank": 11,
+      "rank": 13,
       "player_id": "108107",
       "player_name": "Nicolás Fernández",
       "player_name_ko": "",
@@ -168,22 +198,7 @@
       "penalties": 0
     },
     {
-      "rank": 12,
-      "player_id": "295339",
-      "player_name": "Preston Judd",
-      "player_name_ko": "",
-      "nationality": "USA",
-      "team_id": "191",
-      "team_name": "San Jose Earthquakes",
-      "team_short": "San Jose",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/295339.png",
-      "played": 0,
-      "goals": 15,
-      "penalties": 0
-    },
-    {
-      "rank": 13,
+      "rank": 14,
       "player_id": "275798",
       "player_name": "Prince Owusu",
       "player_name_ko": "",
@@ -198,7 +213,7 @@
       "penalties": 0
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "125088",
       "player_name": "Luis Suárez",
       "player_name_ko": "",
@@ -208,21 +223,6 @@
       "team_short": "Miami",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/125088.png",
-      "played": 0,
-      "goals": 15,
-      "penalties": 0
-    },
-    {
-      "rank": 15,
-      "player_id": "313068",
-      "player_name": "Tai Baribo",
-      "player_name_ko": "",
-      "nationality": "Israel",
-      "team_id": "193",
-      "team_name": "D.C. United",
-      "team_short": "D.C. United",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/313068.png",
       "played": 0,
       "goals": 15,
       "penalties": 0
@@ -245,6 +245,20 @@
     },
     {
       "rank": 2,
+      "player_id": "233943",
+      "player_name": "Joaquín Pereyra",
+      "player_name_ko": "",
+      "nationality": "Argentina",
+      "team_id": "17362",
+      "team_name": "Minnesota United FC",
+      "team_short": "Minnesota",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/233943.png",
+      "played": 0,
+      "assists": 14
+    },
+    {
+      "rank": 3,
       "player_id": "149945",
       "player_name": "Son Heung-Min",
       "player_name_ko": "손흥민",
@@ -258,7 +272,7 @@
       "assists": 14
     },
     {
-      "rank": 3,
+      "rank": 4,
       "player_id": "45843",
       "player_name": "Lionel Messi",
       "player_name_ko": "",
@@ -272,7 +286,7 @@
       "assists": 14
     },
     {
-      "rank": 4,
+      "rank": 5,
       "player_id": "73200",
       "player_name": "Cristian Espinoza",
       "player_name_ko": "",
@@ -286,7 +300,7 @@
       "assists": 14
     },
     {
-      "rank": 5,
+      "rank": 6,
       "player_id": "174466",
       "player_name": "Rodrigo De Paul",
       "player_name_ko": "",
@@ -300,7 +314,7 @@
       "assists": 14
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player_id": "171573",
       "player_name": "Albert Rusnák",
       "player_name_ko": "",
@@ -310,20 +324,6 @@
       "team_short": "Seattle",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/171573.png",
-      "played": 0,
-      "assists": 13
-    },
-    {
-      "rank": 7,
-      "player_id": "233943",
-      "player_name": "Joaquín Pereyra",
-      "player_name_ko": "",
-      "nationality": "Argentina",
-      "team_id": "17362",
-      "team_name": "Minnesota United FC",
-      "team_short": "Minnesota",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/233943.png",
       "played": 0,
       "assists": 13
     },
@@ -399,6 +399,20 @@
     },
     {
       "rank": 13,
+      "player_id": "403425",
+      "player_name": "Justin Ellis",
+      "player_name_ko": "",
+      "nationality": "USA",
+      "team_id": "12011",
+      "team_name": "Orlando City SC",
+      "team_short": "Orlando",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/403425.png",
+      "played": 0,
+      "assists": 11
+    },
+    {
+      "rank": 14,
       "player_id": "333752",
       "player_name": "Niko Tsakiris",
       "player_name_ko": "",
@@ -412,30 +426,16 @@
       "assists": 11
     },
     {
-      "rank": 14,
-      "player_id": "122356",
-      "player_name": "Marco Reus",
-      "player_name_ko": "",
-      "nationality": "Germany",
-      "team_id": "187",
-      "team_name": "LA Galaxy",
-      "team_short": "LA Galaxy",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/122356.png",
-      "played": 0,
-      "assists": 10
-    },
-    {
       "rank": 15,
-      "player_id": "403425",
-      "player_name": "Justin Ellis",
+      "player_id": "152168",
+      "player_name": "Carles Gil",
       "player_name_ko": "",
-      "nationality": "USA",
-      "team_id": "12011",
-      "team_name": "Orlando City SC",
-      "team_short": "Orlando",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/403425.png",
+      "nationality": "Spain",
+      "team_id": "189",
+      "team_name": "New England Revolution",
+      "team_short": "New England",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/152168.png",
       "played": 0,
       "assists": 10
     }
