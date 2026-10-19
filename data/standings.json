@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-18T22:39:15.761Z",
+  "updated_at": "2026-10-19T08:11:27.215Z",
   "eastern": [
     {
       "rank": 1,
@@ -201,20 +201,20 @@
       "team_short_name": "Cincinnati",
       "team_abbr": "CIN",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "played": 28,
+      "played": 29,
       "wins": 9,
       "draws": 9,
-      "losses": 10,
+      "losses": 11,
       "goals_for": 60,
-      "goals_against": 68,
-      "goal_diff": -8,
-      "goal_diff_display": "-8",
+      "goals_against": 70,
+      "goal_diff": -10,
+      "goal_diff_display": "-10",
       "points": 36,
       "recent_form": [
         "D",
-        "D",
         "L",
         "W",
+        "L",
         "L"
       ]
     },
@@ -244,6 +244,30 @@
     },
     {
       "rank": 11,
+      "team_id": "183",
+      "team_name": "Columbus Crew",
+      "team_short_name": "Columbus",
+      "team_abbr": "CLB",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "played": 30,
+      "wins": 10,
+      "draws": 5,
+      "losses": 15,
+      "goals_for": 46,
+      "goals_against": 47,
+      "goal_diff": -1,
+      "goal_diff_display": "-1",
+      "points": 35,
+      "recent_form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "rank": 12,
       "team_id": "17606",
       "team_name": "New York City FC",
       "team_short_name": "NYCFC",
@@ -267,7 +291,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team_id": "193",
       "team_name": "D.C. United",
       "team_short_name": "D.C. United",
@@ -288,30 +312,6 @@
         "L",
         "W",
         "L"
-      ]
-    },
-    {
-      "rank": 13,
-      "team_id": "183",
-      "team_name": "Columbus Crew",
-      "team_short_name": "Columbus",
-      "team_abbr": "CLB",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-      "played": 29,
-      "wins": 9,
-      "draws": 5,
-      "losses": 15,
-      "goals_for": 44,
-      "goals_against": 47,
-      "goal_diff": -3,
-      "goal_diff_display": "-3",
-      "points": 32,
-      "recent_form": [
-        "L",
-        "W",
-        "W",
-        "L",
-        "W"
       ]
     },
     {
