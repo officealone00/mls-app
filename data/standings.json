@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-21T23:46:17.335Z",
+  "updated_at": "2026-10-22T08:02:15.953Z",
   "eastern": [
     {
       "rank": 1,
@@ -172,6 +172,30 @@
     },
     {
       "rank": 8,
+      "team_id": "18267",
+      "team_name": "FC Cincinnati",
+      "team_short_name": "Cincinnati",
+      "team_abbr": "CIN",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "played": 30,
+      "wins": 10,
+      "draws": 9,
+      "losses": 11,
+      "goals_for": 62,
+      "goals_against": 71,
+      "goal_diff": -9,
+      "goal_diff_display": "-9",
+      "points": 39,
+      "recent_form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "rank": 9,
       "team_id": "190",
       "team_name": "Red Bull New York",
       "team_short_name": "Red Bull NY",
@@ -188,30 +212,6 @@
       "points": 36,
       "recent_form": [
         "W",
-        "L",
-        "W",
-        "L",
-        "L"
-      ]
-    },
-    {
-      "rank": 9,
-      "team_id": "18267",
-      "team_name": "FC Cincinnati",
-      "team_short_name": "Cincinnati",
-      "team_abbr": "CIN",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-      "played": 29,
-      "wins": 9,
-      "draws": 9,
-      "losses": 11,
-      "goals_for": 60,
-      "goals_against": 70,
-      "goal_diff": -10,
-      "goal_diff_display": "-10",
-      "points": 36,
-      "recent_form": [
-        "D",
         "L",
         "W",
         "L",
@@ -297,20 +297,20 @@
       "team_short_name": "D.C. United",
       "team_abbr": "DC",
       "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
-      "played": 29,
+      "played": 30,
       "wins": 7,
       "draws": 12,
-      "losses": 10,
-      "goals_for": 37,
-      "goals_against": 51,
-      "goal_diff": -14,
-      "goal_diff_display": "-14",
+      "losses": 11,
+      "goals_for": 38,
+      "goals_against": 53,
+      "goal_diff": -15,
+      "goal_diff_display": "-15",
       "points": 33,
       "recent_form": [
-        "L",
         "D",
         "L",
         "W",
+        "L",
         "L"
       ]
     },

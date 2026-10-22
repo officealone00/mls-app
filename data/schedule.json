@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-10-21T23:46:17.340Z",
+  "updated_at": "2026-10-22T08:02:15.962Z",
   "schedule": {
     "182": {
       "last": {
@@ -445,22 +445,6 @@
     },
     "193": {
       "last": {
-        "match_id": "761881",
-        "date": "2026-10-17T23:30Z",
-        "date_kst": "2026-10-18T08:30:00.000Z",
-        "kst_display": "10월 18일 (일) 오전 8:30",
-        "home": false,
-        "opponent_id": "12011",
-        "opponent_name": "Orlando City SC",
-        "opponent_short": "Orlando",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-        "home_score": 4,
-        "away_score": 1,
-        "result": "L",
-        "venue": "Inter&Co Stadium",
-        "round": ""
-      },
-      "next": {
         "match_id": "761773",
         "date": "2026-10-21T23:00Z",
         "date_kst": "2026-10-22T08:00:00.000Z",
@@ -470,24 +454,40 @@
         "opponent_name": "FC Cincinnati",
         "opponent_short": "Cincinnati",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "home_score": 2,
+        "away_score": 1,
+        "result": "L",
         "venue": "TQL Stadium",
-        "days_until": 0,
+        "round": ""
+      },
+      "next": {
+        "match_id": "761895",
+        "date": "2026-10-24T23:30Z",
+        "date_kst": "2026-10-25T08:30:00.000Z",
+        "kst_display": "10월 25일 (일) 오전 8:30",
+        "home": true,
+        "opponent_id": "18267",
+        "opponent_name": "FC Cincinnati",
+        "opponent_short": "Cincinnati",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "venue": "Audi Field",
+        "days_until": 3,
         "round": "",
         "opponent_stats": {
-          "rank": 9,
-          "points": 36,
-          "played": 29,
-          "wins": 9,
+          "rank": 8,
+          "points": 39,
+          "played": 30,
+          "wins": 10,
           "draws": 9,
           "losses": 11,
-          "goals_for": 60,
-          "goals_against": 70,
+          "goals_for": 62,
+          "goals_against": 71,
           "recent_form": [
-            "D",
             "L",
             "W",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -1033,22 +1033,6 @@
     },
     "18267": {
       "last": {
-        "match_id": "761889",
-        "date": "2026-10-18T21:00Z",
-        "date_kst": "2026-10-19T06:00:00.000Z",
-        "kst_display": "10월 19일 (월) 오전 6:00",
-        "home": true,
-        "opponent_id": "183",
-        "opponent_name": "Columbus Crew",
-        "opponent_short": "Columbus",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-        "home_score": 0,
-        "away_score": 2,
-        "result": "L",
-        "venue": "TQL Stadium",
-        "round": ""
-      },
-      "next": {
         "match_id": "761773",
         "date": "2026-10-21T23:00Z",
         "date_kst": "2026-10-22T08:00:00.000Z",
@@ -1058,23 +1042,39 @@
         "opponent_name": "D.C. United",
         "opponent_short": "D.C. United",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "home_score": 2,
+        "away_score": 1,
+        "result": "W",
         "venue": "TQL Stadium",
-        "days_until": 0,
+        "round": ""
+      },
+      "next": {
+        "match_id": "761895",
+        "date": "2026-10-24T23:30Z",
+        "date_kst": "2026-10-25T08:30:00.000Z",
+        "kst_display": "10월 25일 (일) 오전 8:30",
+        "home": false,
+        "opponent_id": "193",
+        "opponent_name": "D.C. United",
+        "opponent_short": "D.C. United",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "venue": "Audi Field",
+        "days_until": 3,
         "round": "",
         "opponent_stats": {
           "rank": 13,
           "points": 33,
-          "played": 29,
+          "played": 30,
           "wins": 7,
           "draws": 12,
-          "losses": 10,
-          "goals_for": 37,
-          "goals_against": 51,
+          "losses": 11,
+          "goals_for": 38,
+          "goals_against": 53,
           "recent_form": [
-            "L",
             "D",
             "L",
             "W",
+            "L",
             "L"
           ]
         }
@@ -1258,7 +1258,7 @@
         "days_until": 3,
         "round": "",
         "opponent_stats": {
-          "rank": 8,
+          "rank": 9,
           "points": 36,
           "played": 30,
           "wins": 10,
