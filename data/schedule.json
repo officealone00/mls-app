@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-01T19:15:12.373Z",
+  "updated_at": "2026-11-01T23:59:50.247Z",
   "schedule": {
     "182": {
       "last": {
@@ -132,18 +132,18 @@
         "round": "",
         "opponent_stats": {
           "rank": 1,
-          "points": 58,
-          "played": 32,
-          "wins": 17,
+          "points": 61,
+          "played": 33,
+          "wins": 18,
           "draws": 7,
           "losses": 8,
-          "goals_for": 67,
-          "goals_against": 33,
+          "goals_for": 72,
+          "goals_against": 34,
           "recent_form": [
-            "D",
             "D",
             "W",
             "L",
+            "W",
             "W"
           ]
         }
@@ -347,19 +347,19 @@
     },
     "190": {
       "last": {
-        "match_id": "761909",
-        "date": "2026-10-28T23:30Z",
-        "date_kst": "2026-10-29T08:30:00.000Z",
-        "kst_display": "10월 29일 (목) 오전 8:30",
+        "match_id": "761920",
+        "date": "2026-11-01T21:30Z",
+        "date_kst": "2026-11-02T06:30:00.000Z",
+        "kst_display": "11월 2일 (월) 오전 6:30",
         "home": false,
-        "opponent_id": "189",
-        "opponent_name": "New England Revolution",
-        "opponent_short": "New England",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+        "opponent_id": "18986",
+        "opponent_name": "Nashville SC",
+        "opponent_short": "Nashville",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
         "home_score": 3,
         "away_score": 2,
         "result": "L",
-        "venue": "Gillette Stadium",
+        "venue": "GEODIS Park",
         "round": ""
       },
       "next": {
@@ -376,7 +376,7 @@
         "days_until": 112,
         "round": "",
         "opponent_stats": {
-          "rank": 13,
+          "rank": 14,
           "points": 33,
           "played": 33,
           "wins": 7,
@@ -476,17 +476,17 @@
         "opponent_stats": {
           "rank": 10,
           "points": 39,
-          "played": 32,
+          "played": 33,
           "wins": 11,
           "draws": 6,
-          "losses": 15,
-          "goals_for": 43,
-          "goals_against": 59,
+          "losses": 16,
+          "goals_for": 45,
+          "goals_against": 62,
           "recent_form": [
-            "W",
             "L",
             "L",
             "W",
+            "L",
             "L"
           ]
         }
@@ -525,17 +525,17 @@
         "opponent_stats": {
           "rank": 9,
           "points": 43,
-          "played": 32,
+          "played": 33,
           "wins": 11,
           "draws": 10,
-          "losses": 11,
-          "goals_for": 41,
-          "goals_against": 40,
+          "losses": 12,
+          "goals_for": 42,
+          "goals_against": 45,
           "recent_form": [
-            "W",
             "L",
             "D",
             "D",
+            "L",
             "L"
           ]
         }
@@ -592,19 +592,19 @@
     },
     "7318": {
       "last": {
-        "match_id": "761906",
-        "date": "2026-10-28T23:30Z",
-        "date_kst": "2026-10-29T08:30:00.000Z",
-        "kst_display": "10월 29일 (목) 오전 8:30",
-        "home": true,
-        "opponent_id": "193",
-        "opponent_name": "D.C. United",
-        "opponent_short": "D.C. United",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
-        "home_score": 2,
+        "match_id": "761931",
+        "date": "2026-11-01T21:30Z",
+        "date_kst": "2026-11-02T06:30:00.000Z",
+        "kst_display": "11월 2일 (월) 오전 6:30",
+        "home": false,
+        "opponent_id": "18418",
+        "opponent_name": "Atlanta United FC",
+        "opponent_short": "Atlanta",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+        "home_score": 3,
         "away_score": 1,
-        "result": "W",
-        "venue": "BMO Field",
+        "result": "L",
+        "venue": "Mercedes-Benz Stadium",
         "round": ""
       },
       "next": {
@@ -621,20 +621,20 @@
         "days_until": 111,
         "round": "",
         "opponent_stats": {
-          "rank": 14,
-          "points": 30,
-          "played": 32,
-          "wins": 8,
+          "rank": 13,
+          "points": 33,
+          "played": 33,
+          "wins": 9,
           "draws": 6,
           "losses": 18,
-          "goals_for": 40,
-          "goals_against": 56,
+          "goals_for": 43,
+          "goals_against": 57,
           "recent_form": [
-            "L",
             "W",
             "L",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -739,19 +739,19 @@
     },
     "9726": {
       "last": {
-        "match_id": "761916",
-        "date": "2026-10-29T02:30Z",
-        "date_kst": "2026-10-29T11:30:00.000Z",
-        "kst_display": "10월 29일 (목) 오전 11:30",
-        "home": true,
-        "opponent_id": "6077",
-        "opponent_name": "Houston Dynamo FC",
-        "opponent_short": "Houston",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
-        "home_score": 0,
+        "match_id": "761927",
+        "date": "2026-11-01T20:30Z",
+        "date_kst": "2026-11-02T05:30:00.000Z",
+        "kst_display": "11월 2일 (월) 오전 5:30",
+        "home": false,
+        "opponent_id": "9727",
+        "opponent_name": "Vancouver Whitecaps",
+        "opponent_short": "Vancouver",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+        "home_score": 5,
         "away_score": 1,
         "result": "L",
-        "venue": "Lumen Field",
+        "venue": "BC Place",
         "round": ""
       },
       "next": {
@@ -788,16 +788,16 @@
     },
     "9727": {
       "last": {
-        "match_id": "761918",
-        "date": "2026-10-29T02:30Z",
-        "date_kst": "2026-10-29T11:30:00.000Z",
-        "kst_display": "10월 29일 (목) 오전 11:30",
+        "match_id": "761927",
+        "date": "2026-11-01T20:30Z",
+        "date_kst": "2026-11-02T05:30:00.000Z",
+        "kst_display": "11월 2일 (월) 오전 5:30",
         "home": true,
-        "opponent_id": "22529",
-        "opponent_name": "San Diego FC",
-        "opponent_short": "San Diego",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
-        "home_score": 4,
+        "opponent_id": "9726",
+        "opponent_name": "Seattle Sounders FC",
+        "opponent_short": "Seattle",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+        "home_score": 5,
         "away_score": 1,
         "result": "W",
         "venue": "BC Place",
@@ -966,17 +966,17 @@
         "opponent_stats": {
           "rank": 9,
           "points": 43,
-          "played": 32,
+          "played": 33,
           "wins": 11,
           "draws": 10,
-          "losses": 11,
-          "goals_for": 41,
-          "goals_against": 40,
+          "losses": 12,
+          "goals_for": 42,
+          "goals_against": 45,
           "recent_form": [
-            "W",
             "L",
             "D",
             "D",
+            "L",
             "L"
           ]
         }
@@ -1014,19 +1014,19 @@
         "round": "",
         "opponent_stats": {
           "rank": 1,
-          "points": 71,
-          "played": 32,
-          "wins": 21,
+          "points": 74,
+          "played": 33,
+          "wins": 22,
           "draws": 8,
           "losses": 3,
-          "goals_for": 66,
-          "goals_against": 23,
+          "goals_for": 69,
+          "goals_against": 25,
           "recent_form": [
-            "W",
             "W",
             "D",
             "W",
-            "D"
+            "D",
+            "W"
           ]
         }
       }
@@ -1082,19 +1082,19 @@
     },
     "18418": {
       "last": {
-        "match_id": "761905",
-        "date": "2026-10-28T23:30Z",
-        "date_kst": "2026-10-29T08:30:00.000Z",
-        "kst_display": "10월 29일 (목) 오전 8:30",
-        "home": false,
-        "opponent_id": "17606",
-        "opponent_name": "New York City FC",
-        "opponent_short": "NYCFC",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-        "home_score": 2,
+        "match_id": "761931",
+        "date": "2026-11-01T21:30Z",
+        "date_kst": "2026-11-02T06:30:00.000Z",
+        "kst_display": "11월 2일 (월) 오전 6:30",
+        "home": true,
+        "opponent_id": "7318",
+        "opponent_name": "Toronto FC",
+        "opponent_short": "Toronto",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+        "home_score": 3,
         "away_score": 1,
-        "result": "L",
-        "venue": "Citi Field",
+        "result": "W",
+        "venue": "Mercedes-Benz Stadium",
         "round": ""
       },
       "next": {
@@ -1113,18 +1113,18 @@
         "opponent_stats": {
           "rank": 12,
           "points": 39,
-          "played": 32,
+          "played": 33,
           "wins": 9,
           "draws": 12,
-          "losses": 11,
-          "goals_for": 50,
-          "goals_against": 60,
+          "losses": 12,
+          "goals_for": 51,
+          "goals_against": 63,
           "recent_form": [
-            "W",
             "D",
             "W",
             "L",
-            "W"
+            "W",
+            "L"
           ]
         }
       }
@@ -1180,18 +1180,18 @@
     },
     "18986": {
       "last": {
-        "match_id": "761914",
-        "date": "2026-10-29T00:30Z",
-        "date_kst": "2026-10-29T09:30:00.000Z",
-        "kst_display": "10월 29일 (목) 오전 9:30",
+        "match_id": "761920",
+        "date": "2026-11-01T21:30Z",
+        "date_kst": "2026-11-02T06:30:00.000Z",
+        "kst_display": "11월 2일 (월) 오전 6:30",
         "home": true,
-        "opponent_id": "10739",
-        "opponent_name": "Philadelphia Union",
-        "opponent_short": "Philadelphia",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
-        "home_score": 0,
-        "away_score": 0,
-        "result": "D",
+        "opponent_id": "190",
+        "opponent_name": "Red Bull New York",
+        "opponent_short": "Red Bull NY",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+        "home_score": 3,
+        "away_score": 2,
+        "result": "W",
         "venue": "GEODIS Park",
         "round": ""
       },
