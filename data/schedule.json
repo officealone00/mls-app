@@ -1,22 +1,22 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-07T19:08:33.725Z",
+  "updated_at": "2026-11-08T00:03:34.971Z",
   "schedule": {
     "182": {
       "last": {
-        "match_id": "761923",
-        "date": "2026-11-01T01:30Z",
-        "date_kst": "2026-11-01T10:30:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 10:30",
-        "home": false,
-        "opponent_id": "184",
-        "opponent_name": "Colorado Rapids",
-        "opponent_short": "Colorado",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
-        "home_score": 2,
+        "match_id": "761935",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "183",
+        "opponent_name": "Columbus Crew",
+        "opponent_short": "Columbus",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+        "home_score": 3,
         "away_score": 4,
-        "result": "W",
-        "venue": "Dick's Sporting Goods Park",
+        "result": "L",
+        "venue": "SeatGeek Stadium",
         "round": ""
       },
       "next": {
@@ -34,38 +34,38 @@
         "round": "",
         "opponent_stats": {
           "rank": 6,
-          "points": 47,
-          "played": 33,
-          "wins": 13,
+          "points": 50,
+          "played": 34,
+          "wins": 14,
           "draws": 8,
           "losses": 12,
-          "goals_for": 62,
-          "goals_against": 51,
+          "goals_for": 66,
+          "goals_against": 52,
           "recent_form": [
-            "W",
             "D",
             "L",
             "D",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
     },
     "183": {
       "last": {
-        "match_id": "761924",
-        "date": "2026-10-31T18:00Z",
-        "date_kst": "2026-11-01T03:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 3:00",
-        "home": true,
-        "opponent_id": "193",
-        "opponent_name": "D.C. United",
-        "opponent_short": "D.C. United",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "match_id": "761935",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "182",
+        "opponent_name": "Chicago Fire FC",
+        "opponent_short": "Chicago",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
         "home_score": 3,
-        "away_score": 0,
+        "away_score": 4,
         "result": "W",
-        "venue": "ScottsMiracle-Gro Field",
+        "venue": "SeatGeek Stadium",
         "round": ""
       },
       "next": {
@@ -83,19 +83,19 @@
         "round": "",
         "opponent_stats": {
           "rank": 6,
-          "points": 47,
-          "played": 33,
-          "wins": 13,
+          "points": 50,
+          "played": 34,
+          "wins": 14,
           "draws": 8,
           "losses": 12,
-          "goals_for": 62,
-          "goals_against": 51,
+          "goals_for": 66,
+          "goals_against": 52,
           "recent_form": [
-            "W",
             "D",
             "L",
             "D",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -132,17 +132,17 @@
         "round": "",
         "opponent_stats": {
           "rank": 1,
-          "points": 61,
-          "played": 33,
-          "wins": 18,
+          "points": 64,
+          "played": 34,
+          "wins": 19,
           "draws": 7,
           "losses": 8,
-          "goals_for": 72,
+          "goals_for": 74,
           "goals_against": 34,
           "recent_form": [
-            "D",
             "W",
             "L",
+            "W",
             "W",
             "W"
           ]
@@ -298,19 +298,19 @@
     },
     "189": {
       "last": {
-        "match_id": "761932",
-        "date": "2026-11-02T00:00Z",
-        "date_kst": "2026-11-02T09:00:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 9:00",
-        "home": true,
-        "opponent_id": "20232",
-        "opponent_name": "Inter Miami CF",
-        "opponent_short": "Miami",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+        "match_id": "761940",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "12011",
+        "opponent_name": "Orlando City SC",
+        "opponent_short": "Orlando",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
         "home_score": 1,
-        "away_score": 2,
+        "away_score": 0,
         "result": "L",
-        "venue": "Gillette Stadium",
+        "venue": "Inter&Co Stadium",
         "round": ""
       },
       "next": {
@@ -327,39 +327,39 @@
         "days_until": 105,
         "round": "",
         "opponent_stats": {
-          "rank": 9,
-          "points": 43,
-          "played": 33,
-          "wins": 12,
+          "rank": 8,
+          "points": 46,
+          "played": 34,
+          "wins": 13,
           "draws": 7,
           "losses": 14,
-          "goals_for": 62,
+          "goals_for": 63,
           "goals_against": 78,
           "recent_form": [
-            "D",
             "W",
             "D",
             "D",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
     },
     "190": {
       "last": {
-        "match_id": "761920",
-        "date": "2026-11-01T21:30Z",
-        "date_kst": "2026-11-02T06:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 6:30",
-        "home": false,
-        "opponent_id": "18986",
-        "opponent_name": "Nashville SC",
-        "opponent_short": "Nashville",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+        "match_id": "761939",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "18418",
+        "opponent_name": "Atlanta United FC",
+        "opponent_short": "Atlanta",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
         "home_score": 3,
-        "away_score": 2,
-        "result": "L",
-        "venue": "GEODIS Park",
+        "away_score": 0,
+        "result": "W",
+        "venue": "Sports Illustrated Stadium",
         "round": ""
       },
       "next": {
@@ -378,12 +378,12 @@
         "opponent_stats": {
           "rank": 14,
           "points": 33,
-          "played": 33,
+          "played": 34,
           "wins": 7,
           "draws": 12,
-          "losses": 14,
+          "losses": 15,
           "goals_for": 39,
-          "goals_against": 60,
+          "goals_against": 61,
           "recent_form": [
             "L",
             "L",
@@ -445,19 +445,19 @@
     },
     "193": {
       "last": {
-        "match_id": "761924",
-        "date": "2026-10-31T18:00Z",
-        "date_kst": "2026-11-01T03:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 3:00",
-        "home": false,
-        "opponent_id": "183",
-        "opponent_name": "Columbus Crew",
-        "opponent_short": "Columbus",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-        "home_score": 3,
-        "away_score": 0,
+        "match_id": "761936",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "17606",
+        "opponent_name": "New York City FC",
+        "opponent_short": "NYCFC",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+        "home_score": 0,
+        "away_score": 1,
         "result": "L",
-        "venue": "ScottsMiracle-Gro Field",
+        "venue": "Audi Field",
         "round": ""
       },
       "next": {
@@ -475,19 +475,19 @@
         "round": "",
         "opponent_stats": {
           "rank": 10,
-          "points": 39,
-          "played": 33,
-          "wins": 11,
+          "points": 42,
+          "played": 34,
+          "wins": 12,
           "draws": 6,
           "losses": 16,
-          "goals_for": 45,
+          "goals_for": 48,
           "goals_against": 62,
           "recent_form": [
             "L",
-            "L",
             "W",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -592,19 +592,19 @@
     },
     "7318": {
       "last": {
-        "match_id": "761931",
-        "date": "2026-11-01T21:30Z",
-        "date_kst": "2026-11-02T06:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 6:30",
+        "match_id": "761941",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
         "home": false,
-        "opponent_id": "18418",
-        "opponent_name": "Atlanta United FC",
-        "opponent_short": "Atlanta",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
-        "home_score": 3,
+        "opponent_id": "10739",
+        "opponent_name": "Philadelphia Union",
+        "opponent_short": "Philadelphia",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+        "home_score": 4,
         "away_score": 1,
         "result": "L",
-        "venue": "Mercedes-Benz Stadium",
+        "venue": "Subaru Park",
         "round": ""
       },
       "next": {
@@ -623,37 +623,37 @@
         "opponent_stats": {
           "rank": 13,
           "points": 33,
-          "played": 33,
+          "played": 34,
           "wins": 9,
           "draws": 6,
-          "losses": 18,
+          "losses": 19,
           "goals_for": 43,
-          "goals_against": 57,
+          "goals_against": 60,
           "recent_form": [
+            "L",
+            "L",
+            "L",
             "W",
-            "L",
-            "L",
-            "L",
-            "W"
+            "L"
           ]
         }
       }
     },
     "9720": {
       "last": {
-        "match_id": "761930",
-        "date": "2026-10-31T18:00Z",
-        "date_kst": "2026-11-01T03:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 3:00",
-        "home": false,
-        "opponent_id": "17606",
-        "opponent_name": "New York City FC",
-        "opponent_short": "NYCFC",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-        "home_score": 1,
-        "away_score": 1,
-        "result": "D",
-        "venue": "Citi Field",
+        "match_id": "761934",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "9727",
+        "opponent_name": "Vancouver Whitecaps",
+        "opponent_short": "Vancouver",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+        "home_score": 0,
+        "away_score": 2,
+        "result": "L",
+        "venue": "Stade Saputo",
         "round": ""
       },
       "next": {
@@ -671,19 +671,19 @@
         "round": "",
         "opponent_stats": {
           "rank": 5,
-          "points": 53,
-          "played": 33,
+          "points": 54,
+          "played": 34,
           "wins": 15,
-          "draws": 8,
+          "draws": 9,
           "losses": 10,
-          "goals_for": 63,
-          "goals_against": 48,
+          "goals_for": 66,
+          "goals_against": 51,
           "recent_form": [
-            "L",
             "D",
             "L",
             "W",
-            "W"
+            "W",
+            "D"
           ]
         }
       }
@@ -788,19 +788,19 @@
     },
     "9727": {
       "last": {
-        "match_id": "761927",
-        "date": "2026-11-01T20:30Z",
-        "date_kst": "2026-11-02T05:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 5:30",
-        "home": true,
-        "opponent_id": "9726",
-        "opponent_name": "Seattle Sounders FC",
-        "opponent_short": "Seattle",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-        "home_score": 5,
-        "away_score": 1,
+        "match_id": "761934",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "9720",
+        "opponent_name": "CF Montréal",
+        "opponent_short": "CF Montréal",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+        "home_score": 0,
+        "away_score": 2,
         "result": "W",
-        "venue": "BC Place",
+        "venue": "Stade Saputo",
         "round": ""
       },
       "next": {
@@ -837,19 +837,19 @@
     },
     "10739": {
       "last": {
-        "match_id": "761919",
-        "date": "2026-10-31T18:00Z",
-        "date_kst": "2026-11-01T03:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 3:00",
-        "home": false,
-        "opponent_id": "18267",
-        "opponent_name": "FC Cincinnati",
-        "opponent_short": "Cincinnati",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-        "home_score": 1,
-        "away_score": 0,
-        "result": "L",
-        "venue": "TQL Stadium",
+        "match_id": "761941",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "7318",
+        "opponent_name": "Toronto FC",
+        "opponent_short": "Toronto",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+        "home_score": 4,
+        "away_score": 1,
+        "result": "W",
+        "venue": "Subaru Park",
         "round": ""
       },
       "next": {
@@ -868,37 +868,37 @@
         "opponent_stats": {
           "rank": 4,
           "points": 55,
-          "played": 33,
+          "played": 34,
           "wins": 16,
           "draws": 7,
-          "losses": 10,
-          "goals_for": 61,
-          "goals_against": 50,
+          "losses": 11,
+          "goals_for": 64,
+          "goals_against": 54,
           "recent_form": [
-            "L",
             "L",
             "W",
             "D",
-            "W"
+            "W",
+            "L"
           ]
         }
       }
     },
     "12011": {
       "last": {
-        "match_id": "761922",
-        "date": "2026-10-31T17:00Z",
-        "date_kst": "2026-11-01T02:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 2:00",
-        "home": false,
-        "opponent_id": "21300",
-        "opponent_name": "Charlotte FC",
-        "opponent_short": "Charlotte",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
-        "home_score": 4,
+        "match_id": "761940",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "189",
+        "opponent_name": "New England Revolution",
+        "opponent_short": "New England",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+        "home_score": 1,
         "away_score": 0,
-        "result": "L",
-        "venue": "Bank of America Stadium",
+        "result": "W",
+        "venue": "Inter&Co Stadium",
         "round": ""
       },
       "next": {
@@ -917,17 +917,17 @@
         "opponent_stats": {
           "rank": 3,
           "points": 58,
-          "played": 33,
+          "played": 34,
           "wins": 18,
           "draws": 4,
-          "losses": 11,
+          "losses": 12,
           "goals_for": 55,
-          "goals_against": 46,
+          "goals_against": 47,
           "recent_form": [
             "W",
             "W",
             "W",
-            "W",
+            "L",
             "L"
           ]
         }
@@ -984,19 +984,19 @@
     },
     "17606": {
       "last": {
-        "match_id": "761930",
-        "date": "2026-10-31T18:00Z",
-        "date_kst": "2026-11-01T03:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 3:00",
-        "home": true,
-        "opponent_id": "9720",
-        "opponent_name": "CF Montréal",
-        "opponent_short": "CF Montréal",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
-        "home_score": 1,
+        "match_id": "761936",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "193",
+        "opponent_name": "D.C. United",
+        "opponent_short": "D.C. United",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "home_score": 0,
         "away_score": 1,
-        "result": "D",
-        "venue": "Citi Field",
+        "result": "W",
+        "venue": "Audi Field",
         "round": ""
       },
       "next": {
@@ -1014,18 +1014,18 @@
         "round": "",
         "opponent_stats": {
           "rank": 1,
-          "points": 74,
-          "played": 33,
-          "wins": 22,
+          "points": 77,
+          "played": 34,
+          "wins": 23,
           "draws": 8,
           "losses": 3,
-          "goals_for": 69,
+          "goals_for": 71,
           "goals_against": 25,
           "recent_form": [
-            "W",
             "D",
             "W",
             "D",
+            "W",
             "W"
           ]
         }
@@ -1033,18 +1033,18 @@
     },
     "18267": {
       "last": {
-        "match_id": "761919",
-        "date": "2026-10-31T18:00Z",
-        "date_kst": "2026-11-01T03:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 3:00",
+        "match_id": "761937",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
         "home": true,
-        "opponent_id": "10739",
-        "opponent_name": "Philadelphia Union",
-        "opponent_short": "Philadelphia",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
-        "home_score": 1,
-        "away_score": 0,
-        "result": "W",
+        "opponent_id": "18986",
+        "opponent_name": "Nashville SC",
+        "opponent_short": "Nashville",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+        "home_score": 0,
+        "away_score": 2,
+        "result": "L",
         "venue": "TQL Stadium",
         "round": ""
       },
@@ -1063,38 +1063,38 @@
         "round": "",
         "opponent_stats": {
           "rank": 2,
-          "points": 59,
-          "played": 33,
+          "points": 60,
+          "played": 34,
           "wins": 16,
-          "draws": 11,
+          "draws": 12,
           "losses": 6,
-          "goals_for": 77,
-          "goals_against": 56,
+          "goals_for": 80,
+          "goals_against": 59,
           "recent_form": [
-            "W",
             "W",
             "L",
             "D",
-            "W"
+            "W",
+            "D"
           ]
         }
       }
     },
     "18418": {
       "last": {
-        "match_id": "761931",
-        "date": "2026-11-01T21:30Z",
-        "date_kst": "2026-11-02T06:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 6:30",
-        "home": true,
-        "opponent_id": "7318",
-        "opponent_name": "Toronto FC",
-        "opponent_short": "Toronto",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+        "match_id": "761939",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "190",
+        "opponent_name": "Red Bull New York",
+        "opponent_short": "Red Bull NY",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
         "home_score": 3,
-        "away_score": 1,
-        "result": "W",
-        "venue": "Mercedes-Benz Stadium",
+        "away_score": 0,
+        "result": "L",
+        "venue": "Sports Illustrated Stadium",
         "round": ""
       },
       "next": {
@@ -1113,17 +1113,17 @@
         "opponent_stats": {
           "rank": 12,
           "points": 39,
-          "played": 33,
+          "played": 34,
           "wins": 9,
           "draws": 12,
-          "losses": 12,
-          "goals_for": 51,
-          "goals_against": 63,
+          "losses": 13,
+          "goals_for": 52,
+          "goals_against": 67,
           "recent_form": [
-            "D",
             "W",
             "L",
             "W",
+            "L",
             "L"
           ]
         }
@@ -1180,19 +1180,19 @@
     },
     "18986": {
       "last": {
-        "match_id": "761920",
-        "date": "2026-11-01T21:30Z",
-        "date_kst": "2026-11-02T06:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 6:30",
-        "home": true,
-        "opponent_id": "190",
-        "opponent_name": "Red Bull New York",
-        "opponent_short": "Red Bull NY",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
-        "home_score": 3,
+        "match_id": "761937",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "18267",
+        "opponent_name": "FC Cincinnati",
+        "opponent_short": "Cincinnati",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "home_score": 0,
         "away_score": 2,
         "result": "W",
-        "venue": "GEODIS Park",
+        "venue": "TQL Stadium",
         "round": ""
       },
       "next": {
@@ -1210,38 +1210,38 @@
         "round": "",
         "opponent_stats": {
           "rank": 11,
-          "points": 39,
-          "played": 33,
-          "wins": 9,
+          "points": 42,
+          "played": 34,
+          "wins": 10,
           "draws": 12,
           "losses": 12,
-          "goals_for": 48,
+          "goals_for": 49,
           "goals_against": 45,
           "recent_form": [
-            "L",
             "D",
             "D",
             "W",
-            "D"
+            "D",
+            "W"
           ]
         }
       }
     },
     "20232": {
       "last": {
-        "match_id": "761932",
-        "date": "2026-11-02T00:00Z",
-        "date_kst": "2026-11-02T09:00:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 9:00",
-        "home": false,
-        "opponent_id": "189",
-        "opponent_name": "New England Revolution",
-        "opponent_short": "New England",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
-        "home_score": 1,
-        "away_score": 2,
-        "result": "W",
-        "venue": "Gillette Stadium",
+        "match_id": "761938",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": true,
+        "opponent_id": "21300",
+        "opponent_name": "Charlotte FC",
+        "opponent_short": "Charlotte",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+        "home_score": 3,
+        "away_score": 3,
+        "result": "D",
+        "venue": "Nu Stadium",
         "round": ""
       },
       "next": {
@@ -1258,20 +1258,20 @@
         "days_until": 104,
         "round": "",
         "opponent_stats": {
-          "rank": 7,
+          "rank": 9,
           "points": 46,
-          "played": 33,
+          "played": 34,
           "wins": 12,
           "draws": 10,
-          "losses": 11,
+          "losses": 12,
           "goals_for": 67,
-          "goals_against": 73,
+          "goals_against": 75,
           "recent_form": [
-            "L",
             "W",
             "W",
             "D",
-            "W"
+            "W",
+            "L"
           ]
         }
       }
@@ -1327,19 +1327,19 @@
     },
     "21300": {
       "last": {
-        "match_id": "761922",
-        "date": "2026-10-31T17:00Z",
-        "date_kst": "2026-11-01T02:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 2:00",
-        "home": true,
-        "opponent_id": "12011",
-        "opponent_name": "Orlando City SC",
-        "opponent_short": "Orlando",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-        "home_score": 4,
-        "away_score": 0,
-        "result": "W",
-        "venue": "Bank of America Stadium",
+        "match_id": "761938",
+        "date": "2026-11-07T21:00Z",
+        "date_kst": "2026-11-08T06:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 6:00",
+        "home": false,
+        "opponent_id": "20232",
+        "opponent_name": "Inter Miami CF",
+        "opponent_short": "Miami",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+        "home_score": 3,
+        "away_score": 3,
+        "result": "D",
+        "venue": "Nu Stadium",
         "round": ""
       },
       "next": {
@@ -1358,18 +1358,18 @@
         "opponent_stats": {
           "rank": 15,
           "points": 26,
-          "played": 33,
+          "played": 34,
           "wins": 6,
           "draws": 8,
-          "losses": 19,
+          "losses": 20,
           "goals_for": 37,
-          "goals_against": 67,
+          "goals_against": 69,
           "recent_form": [
-            "L",
             "D",
             "L",
             "L",
-            "D"
+            "D",
+            "L"
           ]
         }
       }
