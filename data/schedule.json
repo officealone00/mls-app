@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-08T00:03:34.971Z",
+  "updated_at": "2026-11-08T09:39:28.329Z",
   "schedule": {
     "182": {
       "last": {
@@ -102,19 +102,19 @@
     },
     "184": {
       "last": {
-        "match_id": "761923",
-        "date": "2026-11-01T01:30Z",
-        "date_kst": "2026-11-01T10:30:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 10:30",
-        "home": true,
-        "opponent_id": "182",
-        "opponent_name": "Chicago Fire FC",
-        "opponent_short": "Chicago",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-        "home_score": 2,
-        "away_score": 4,
+        "match_id": "761943",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "185",
+        "opponent_name": "FC Dallas",
+        "opponent_short": "Dallas",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+        "home_score": 3,
+        "away_score": 1,
         "result": "L",
-        "venue": "Dick's Sporting Goods Park",
+        "venue": "Toyota Stadium",
         "round": ""
       },
       "next": {
@@ -151,19 +151,19 @@
     },
     "185": {
       "last": {
-        "match_id": "761928",
-        "date": "2026-10-31T19:00Z",
-        "date_kst": "2026-11-01T04:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 4:00",
-        "home": false,
-        "opponent_id": "186",
-        "opponent_name": "Sporting Kansas City",
-        "opponent_short": "Kansas City",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
-        "home_score": 1,
+        "match_id": "761943",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "184",
+        "opponent_name": "Colorado Rapids",
+        "opponent_short": "Colorado",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+        "home_score": 3,
         "away_score": 1,
-        "result": "D",
-        "venue": "Sporting Park",
+        "result": "W",
+        "venue": "Toyota Stadium",
         "round": ""
       },
       "next": {
@@ -182,16 +182,16 @@
         "opponent_stats": {
           "rank": 14,
           "points": 34,
-          "played": 33,
+          "played": 34,
           "wins": 8,
           "draws": 10,
-          "losses": 15,
+          "losses": 16,
           "goals_for": 42,
-          "goals_against": 63,
+          "goals_against": 65,
           "recent_form": [
             "L",
-            "L",
             "W",
+            "L",
             "L",
             "L"
           ]
@@ -200,19 +200,19 @@
     },
     "186": {
       "last": {
-        "match_id": "761928",
-        "date": "2026-10-31T19:00Z",
-        "date_kst": "2026-11-01T04:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 4:00",
-        "home": true,
-        "opponent_id": "185",
-        "opponent_name": "FC Dallas",
-        "opponent_short": "Dallas",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
-        "home_score": 1,
+        "match_id": "761947",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "22529",
+        "opponent_name": "San Diego FC",
+        "opponent_short": "San Diego",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+        "home_score": 0,
         "away_score": 1,
-        "result": "D",
-        "venue": "Sporting Park",
+        "result": "W",
+        "venue": "Snapdragon Stadium",
         "round": ""
       },
       "next": {
@@ -231,17 +231,17 @@
         "opponent_stats": {
           "rank": 5,
           "points": 51,
-          "played": 33,
+          "played": 34,
           "wins": 14,
           "draws": 9,
-          "losses": 10,
+          "losses": 11,
           "goals_for": 43,
-          "goals_against": 42,
+          "goals_against": 43,
           "recent_form": [
             "D",
             "D",
-            "D",
             "W",
+            "L",
             "L"
           ]
         }
@@ -249,19 +249,19 @@
     },
     "187": {
       "last": {
-        "match_id": "761925",
-        "date": "2026-10-31T21:00Z",
-        "date_kst": "2026-11-01T06:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 6:00",
-        "home": true,
-        "opponent_id": "20906",
-        "opponent_name": "Austin FC",
-        "opponent_short": "Austin",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
-        "home_score": 4,
+        "match_id": "761946",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "4771",
+        "opponent_name": "Real Salt Lake",
+        "opponent_short": "Salt Lake",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+        "home_score": 2,
         "away_score": 1,
-        "result": "W",
-        "venue": "Dignity Health Sports Park",
+        "result": "L",
+        "venue": "America First Field",
         "round": ""
       },
       "next": {
@@ -278,20 +278,20 @@
         "days_until": 105,
         "round": "",
         "opponent_stats": {
-          "rank": 4,
-          "points": 51,
-          "played": 33,
-          "wins": 14,
+          "rank": 3,
+          "points": 54,
+          "played": 34,
+          "wins": 15,
           "draws": 9,
           "losses": 10,
-          "goals_for": 58,
+          "goals_for": 59,
           "goals_against": 48,
           "recent_form": [
-            "D",
             "L",
             "L",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -396,19 +396,19 @@
     },
     "191": {
       "last": {
-        "match_id": "761929",
-        "date": "2026-10-31T21:00Z",
-        "date_kst": "2026-11-01T06:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 6:00",
-        "home": true,
-        "opponent_id": "4771",
-        "opponent_name": "Real Salt Lake",
-        "opponent_short": "Salt Lake",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-        "home_score": 2,
+        "match_id": "761945",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "17362",
+        "opponent_name": "Minnesota United FC",
+        "opponent_short": "Minnesota",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+        "home_score": 3,
         "away_score": 1,
-        "result": "W",
-        "venue": "PayPal Park",
+        "result": "L",
+        "venue": "Allianz Field",
         "round": ""
       },
       "next": {
@@ -425,17 +425,17 @@
         "days_until": 105,
         "round": "",
         "opponent_stats": {
-          "rank": 9,
-          "points": 43,
-          "played": 33,
-          "wins": 12,
+          "rank": 7,
+          "points": 46,
+          "played": 34,
+          "wins": 13,
           "draws": 7,
           "losses": 14,
-          "goals_for": 60,
+          "goals_for": 62,
           "goals_against": 61,
           "recent_form": [
-            "L",
             "D",
+            "W",
             "W",
             "W",
             "W"
@@ -494,19 +494,19 @@
     },
     "4771": {
       "last": {
-        "match_id": "761929",
-        "date": "2026-10-31T21:00Z",
-        "date_kst": "2026-11-01T06:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 6:00",
-        "home": false,
-        "opponent_id": "191",
-        "opponent_name": "San Jose Earthquakes",
-        "opponent_short": "San Jose",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "match_id": "761946",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "187",
+        "opponent_name": "LA Galaxy",
+        "opponent_short": "LA Galaxy",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
         "home_score": 2,
         "away_score": 1,
-        "result": "L",
-        "venue": "PayPal Park",
+        "result": "W",
+        "venue": "America First Field",
         "round": ""
       },
       "next": {
@@ -523,39 +523,39 @@
         "days_until": 106,
         "round": "",
         "opponent_stats": {
-          "rank": 10,
-          "points": 43,
-          "played": 33,
-          "wins": 11,
+          "rank": 8,
+          "points": 46,
+          "played": 34,
+          "wins": 12,
           "draws": 10,
           "losses": 12,
-          "goals_for": 42,
-          "goals_against": 45,
+          "goals_for": 44,
+          "goals_against": 46,
           "recent_form": [
-            "L",
             "D",
             "D",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
     },
     "6077": {
       "last": {
-        "match_id": "761933",
-        "date": "2026-11-02T02:45Z",
-        "date_kst": "2026-11-02T11:45:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 11:45",
-        "home": false,
-        "opponent_id": "9723",
-        "opponent_name": "Portland Timbers",
-        "opponent_short": "Portland",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
-        "home_score": 3,
+        "match_id": "761944",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "21812",
+        "opponent_name": "St. Louis CITY SC",
+        "opponent_short": "St. Louis",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "home_score": 0,
         "away_score": 1,
         "result": "L",
-        "venue": "Providence Park",
+        "venue": "Shell Energy Stadium",
         "round": ""
       },
       "next": {
@@ -573,19 +573,19 @@
         "round": "",
         "opponent_stats": {
           "rank": 15,
-          "points": 23,
-          "played": 33,
-          "wins": 6,
+          "points": 26,
+          "played": 34,
+          "wins": 7,
           "draws": 5,
           "losses": 22,
-          "goals_for": 39,
+          "goals_for": 40,
           "goals_against": 81,
           "recent_form": [
             "L",
             "L",
             "L",
-            "L",
-            "D"
+            "D",
+            "W"
           ]
         }
       }
@@ -690,19 +690,19 @@
     },
     "9723": {
       "last": {
-        "match_id": "761933",
-        "date": "2026-11-02T02:45Z",
-        "date_kst": "2026-11-02T11:45:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 11:45",
-        "home": true,
-        "opponent_id": "6077",
-        "opponent_name": "Houston Dynamo FC",
-        "opponent_short": "Houston",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
-        "home_score": 3,
-        "away_score": 1,
+        "match_id": "761942",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "20906",
+        "opponent_name": "Austin FC",
+        "opponent_short": "Austin",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+        "home_score": 0,
+        "away_score": 2,
         "result": "W",
-        "venue": "Providence Park",
+        "venue": "Q2 Stadium",
         "round": ""
       },
       "next": {
@@ -719,39 +719,39 @@
         "days_until": 105,
         "round": "",
         "opponent_stats": {
-          "rank": 3,
+          "rank": 4,
           "points": 52,
-          "played": 33,
+          "played": 34,
           "wins": 14,
           "draws": 10,
-          "losses": 9,
-          "goals_for": 56,
-          "goals_against": 48,
+          "losses": 10,
+          "goals_for": 57,
+          "goals_against": 51,
           "recent_form": [
-            "D",
             "D",
             "L",
             "D",
-            "W"
+            "W",
+            "L"
           ]
         }
       }
     },
     "9726": {
       "last": {
-        "match_id": "761927",
-        "date": "2026-11-01T20:30Z",
-        "date_kst": "2026-11-02T05:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 5:30",
-        "home": false,
-        "opponent_id": "9727",
-        "opponent_name": "Vancouver Whitecaps",
-        "opponent_short": "Vancouver",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
-        "home_score": 5,
+        "match_id": "761948",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "18966",
+        "opponent_name": "LAFC",
+        "opponent_short": "LAFC",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+        "home_score": 2,
         "away_score": 1,
-        "result": "L",
-        "venue": "BC Place",
+        "result": "W",
+        "venue": "Lumen Field",
         "round": ""
       },
       "next": {
@@ -768,20 +768,20 @@
         "days_until": 106,
         "round": "",
         "opponent_stats": {
-          "rank": 11,
-          "points": 42,
-          "played": 33,
-          "wins": 12,
+          "rank": 9,
+          "points": 45,
+          "played": 34,
+          "wins": 13,
           "draws": 6,
           "losses": 15,
-          "goals_for": 51,
-          "goals_against": 51,
+          "goals_for": 53,
+          "goals_against": 52,
           "recent_form": [
-            "D",
             "W",
             "W",
             "W",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -817,19 +817,19 @@
         "days_until": 105,
         "round": "",
         "opponent_stats": {
-          "rank": 8,
+          "rank": 12,
           "points": 43,
-          "played": 33,
+          "played": 34,
           "wins": 12,
           "draws": 7,
-          "losses": 14,
-          "goals_for": 46,
-          "goals_against": 47,
+          "losses": 15,
+          "goals_for": 47,
+          "goals_against": 50,
           "recent_form": [
-            "D",
             "D",
             "W",
             "D",
+            "L",
             "L"
           ]
         }
@@ -935,19 +935,19 @@
     },
     "17362": {
       "last": {
-        "match_id": "761921",
-        "date": "2026-11-02T01:30Z",
-        "date_kst": "2026-11-02T10:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 10:30",
-        "home": false,
-        "opponent_id": "18966",
-        "opponent_name": "LAFC",
-        "opponent_short": "LAFC",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-        "home_score": 1,
-        "away_score": 3,
+        "match_id": "761945",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "191",
+        "opponent_name": "San Jose Earthquakes",
+        "opponent_short": "San Jose",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "home_score": 3,
+        "away_score": 1,
         "result": "W",
-        "venue": "BMO Stadium",
+        "venue": "Allianz Field",
         "round": ""
       },
       "next": {
@@ -964,20 +964,20 @@
         "days_until": 113,
         "round": "",
         "opponent_stats": {
-          "rank": 10,
-          "points": 43,
-          "played": 33,
-          "wins": 11,
+          "rank": 8,
+          "points": 46,
+          "played": 34,
+          "wins": 12,
           "draws": 10,
           "losses": 12,
-          "goals_for": 42,
-          "goals_against": 45,
+          "goals_for": 44,
+          "goals_against": 46,
           "recent_form": [
-            "L",
             "D",
             "D",
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
@@ -1131,19 +1131,19 @@
     },
     "18966": {
       "last": {
-        "match_id": "761921",
-        "date": "2026-11-02T01:30Z",
-        "date_kst": "2026-11-02T10:30:00.000Z",
-        "kst_display": "11월 2일 (월) 오전 10:30",
-        "home": true,
-        "opponent_id": "17362",
-        "opponent_name": "Minnesota United FC",
-        "opponent_short": "Minnesota",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
-        "home_score": 1,
-        "away_score": 3,
+        "match_id": "761948",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "9726",
+        "opponent_name": "Seattle Sounders FC",
+        "opponent_short": "Seattle",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+        "home_score": 2,
+        "away_score": 1,
         "result": "L",
-        "venue": "BMO Stadium",
+        "venue": "Lumen Field",
         "round": ""
       },
       "next": {
@@ -1162,18 +1162,18 @@
         "opponent_stats": {
           "rank": 13,
           "points": 38,
-          "played": 33,
+          "played": 34,
           "wins": 9,
           "draws": 11,
-          "losses": 13,
+          "losses": 14,
           "goals_for": 57,
-          "goals_against": 62,
+          "goals_against": 63,
           "recent_form": [
             "D",
             "D",
-            "D",
             "L",
-            "W"
+            "W",
+            "L"
           ]
         }
       }
@@ -1278,19 +1278,19 @@
     },
     "20906": {
       "last": {
-        "match_id": "761925",
-        "date": "2026-10-31T21:00Z",
-        "date_kst": "2026-11-01T06:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 6:00",
-        "home": false,
-        "opponent_id": "187",
-        "opponent_name": "LA Galaxy",
-        "opponent_short": "LA Galaxy",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
-        "home_score": 4,
-        "away_score": 1,
+        "match_id": "761942",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "9723",
+        "opponent_name": "Portland Timbers",
+        "opponent_short": "Portland",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+        "home_score": 0,
+        "away_score": 2,
         "result": "L",
-        "venue": "Dignity Health Sports Park",
+        "venue": "Q2 Stadium",
         "round": ""
       },
       "next": {
@@ -1308,19 +1308,19 @@
         "round": "",
         "opponent_stats": {
           "rank": 2,
-          "points": 55,
-          "played": 33,
-          "wins": 15,
+          "points": 58,
+          "played": 34,
+          "wins": 16,
           "draws": 10,
           "losses": 8,
-          "goals_for": 59,
-          "goals_against": 50,
+          "goals_for": 62,
+          "goals_against": 51,
           "recent_form": [
-            "W",
             "D",
             "W",
             "L",
-            "D"
+            "D",
+            "W"
           ]
         }
       }
@@ -1376,19 +1376,19 @@
     },
     "21812": {
       "last": {
-        "match_id": "761926",
-        "date": "2026-10-31T19:00Z",
-        "date_kst": "2026-11-01T04:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 4:00",
-        "home": true,
-        "opponent_id": "22529",
-        "opponent_name": "San Diego FC",
-        "opponent_short": "San Diego",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+        "match_id": "761944",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": false,
+        "opponent_id": "6077",
+        "opponent_name": "Houston Dynamo FC",
+        "opponent_short": "Houston",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
         "home_score": 0,
         "away_score": 1,
-        "result": "L",
-        "venue": "Energizer Park",
+        "result": "W",
+        "venue": "Shell Energy Stadium",
         "round": ""
       },
       "next": {
@@ -1405,39 +1405,39 @@
         "days_until": 105,
         "round": "",
         "opponent_stats": {
-          "rank": 7,
+          "rank": 11,
           "points": 44,
-          "played": 33,
+          "played": 34,
           "wins": 11,
           "draws": 11,
-          "losses": 11,
-          "goals_for": 49,
-          "goals_against": 55,
+          "losses": 12,
+          "goals_for": 50,
+          "goals_against": 57,
           "recent_form": [
-            "L",
             "W",
             "D",
             "D",
-            "W"
+            "W",
+            "L"
           ]
         }
       }
     },
     "22529": {
       "last": {
-        "match_id": "761926",
-        "date": "2026-10-31T19:00Z",
-        "date_kst": "2026-11-01T04:00:00.000Z",
-        "kst_display": "11월 1일 (일) 오전 4:00",
-        "home": false,
-        "opponent_id": "21812",
-        "opponent_name": "St. Louis CITY SC",
-        "opponent_short": "St. Louis",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "match_id": "761947",
+        "date": "2026-11-08T00:00Z",
+        "date_kst": "2026-11-08T09:00:00.000Z",
+        "kst_display": "11월 8일 (일) 오전 9:00",
+        "home": true,
+        "opponent_id": "186",
+        "opponent_name": "Sporting Kansas City",
+        "opponent_short": "Kansas City",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
         "home_score": 0,
         "away_score": 1,
-        "result": "W",
-        "venue": "Energizer Park",
+        "result": "L",
+        "venue": "Snapdragon Stadium",
         "round": ""
       },
       "next": {
@@ -1456,17 +1456,17 @@
         "opponent_stats": {
           "rank": 6,
           "points": 47,
-          "played": 33,
+          "played": 34,
           "wins": 12,
           "draws": 11,
-          "losses": 10,
-          "goals_for": 51,
-          "goals_against": 38,
+          "losses": 11,
+          "goals_for": 52,
+          "goals_against": 40,
           "recent_form": [
-            "D",
             "W",
             "D",
             "D",
+            "L",
             "L"
           ]
         }
