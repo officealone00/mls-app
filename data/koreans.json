@@ -1,26 +1,7 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-08T19:13:11.859Z",
+  "updated_at": "2026-11-09T00:12:54.687Z",
   "players": [
-    {
-      "player_id": "175922",
-      "player_name": "Kim Kee-Hee",
-      "player_name_ko": "김기희",
-      "position": "Defender",
-      "jersey": "20",
-      "age": 37,
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/175922.png",
-      "team_id": "9726",
-      "team_name": "Seattle Sounders FC",
-      "team_short": "Seattle",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-      "appearances": 9,
-      "goals": 0,
-      "assists": 0,
-      "shots": 2,
-      "shots_on_target": 0,
-      "minutes": 446
-    },
     {
       "player_id": "149945",
       "player_name": "Son Heung-Min",
@@ -39,6 +20,25 @@
       "shots": 108,
       "shots_on_target": 32,
       "minutes": 2551
+    },
+    {
+      "player_id": "175922",
+      "player_name": "Kim Kee-Hee",
+      "player_name_ko": "김기희",
+      "position": "Defender",
+      "jersey": "20",
+      "age": 37,
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/175922.png",
+      "team_id": "9726",
+      "team_name": "Seattle Sounders FC",
+      "team_short": "Seattle",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "appearances": 9,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "shots_on_target": 0,
+      "minutes": 446
     }
   ]
 }
