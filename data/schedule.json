@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-22T00:44:50.767Z",
+  "updated_at": "2026-11-22T10:26:59.184Z",
   "schedule": {
     "182": {
       "last": {
@@ -53,19 +53,19 @@
     },
     "183": {
       "last": {
-        "match_id": "761935",
-        "date": "2026-11-07T21:00Z",
-        "date_kst": "2026-11-08T06:00:00.000Z",
-        "kst_display": "11월 8일 (일) 오전 6:00",
+        "match_id": "401933739",
+        "date": "2026-11-21T23:00Z",
+        "date_kst": "2026-11-22T08:00:00.000Z",
+        "kst_display": "11월 22일 (일) 오전 8:00",
         "home": false,
-        "opponent_id": "182",
-        "opponent_name": "Chicago Fire FC",
-        "opponent_short": "Chicago",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-        "home_score": 3,
-        "away_score": 4,
+        "opponent_id": "20232",
+        "opponent_name": "Inter Miami CF",
+        "opponent_short": "Miami",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+        "home_score": 0,
+        "away_score": 3,
         "result": "W",
-        "venue": "SeatGeek Stadium",
+        "venue": "Nu Stadium",
         "round": ""
       },
       "next": {
@@ -1071,11 +1071,11 @@
           "goals_for": 80,
           "goals_against": 59,
           "recent_form": [
-            "W",
             "L",
             "D",
             "W",
-            "D"
+            "D",
+            "L"
           ]
         }
       }
@@ -1229,18 +1229,18 @@
     },
     "20232": {
       "last": {
-        "match_id": "761938",
-        "date": "2026-11-07T21:00Z",
-        "date_kst": "2026-11-08T06:00:00.000Z",
-        "kst_display": "11월 8일 (일) 오전 6:00",
+        "match_id": "401933739",
+        "date": "2026-11-21T23:00Z",
+        "date_kst": "2026-11-22T08:00:00.000Z",
+        "kst_display": "11월 22일 (일) 오전 8:00",
         "home": true,
-        "opponent_id": "21300",
-        "opponent_name": "Charlotte FC",
-        "opponent_short": "Charlotte",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
-        "home_score": 3,
+        "opponent_id": "183",
+        "opponent_name": "Columbus Crew",
+        "opponent_short": "Columbus",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+        "home_score": 0,
         "away_score": 3,
-        "result": "D",
+        "result": "L",
         "venue": "Nu Stadium",
         "round": ""
       },
