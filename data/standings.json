@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-24T01:56:28.121Z",
+  "updated_at": "2026-11-24T13:00:56.554Z",
   "eastern": [
     {
       "rank": 1,
@@ -432,7 +432,7 @@
         "L",
         "L",
         "L",
-        "L",
+        "W",
         "W"
       ]
     },
@@ -501,9 +501,9 @@
       "goal_diff_display": "+12",
       "points": 47,
       "recent_form": [
-        "W",
         "D",
         "D",
+        "L",
         "L",
         "L"
       ]

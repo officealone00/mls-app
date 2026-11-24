@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-24T01:56:28.130Z",
+  "updated_at": "2026-11-24T13:00:56.567Z",
   "schedule": {
     "182": {
       "last": {
@@ -290,7 +290,7 @@
             "L",
             "L",
             "L",
-            "L",
+            "W",
             "W"
           ]
         }
@@ -1131,19 +1131,19 @@
     },
     "18966": {
       "last": {
-        "match_id": "761948",
-        "date": "2026-11-08T00:00Z",
-        "date_kst": "2026-11-08T09:00:00.000Z",
-        "kst_display": "11월 8일 (일) 오전 9:00",
+        "match_id": "401933728",
+        "date": "2026-11-24T01:15Z",
+        "date_kst": "2026-11-24T10:15:00.000Z",
+        "kst_display": "11월 24일 (화) 오전 10:15",
         "home": false,
-        "opponent_id": "9726",
-        "opponent_name": "Seattle Sounders FC",
-        "opponent_short": "Seattle",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-        "home_score": 2,
-        "away_score": 1,
+        "opponent_id": "21812",
+        "opponent_name": "St. Louis CITY SC",
+        "opponent_short": "St. Louis",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "home_score": 3,
+        "away_score": 2,
         "result": "L",
-        "venue": "Lumen Field",
+        "venue": "Energizer Park",
         "round": ""
       },
       "next": {
@@ -1376,19 +1376,19 @@
     },
     "21812": {
       "last": {
-        "match_id": "761944",
-        "date": "2026-11-08T00:00Z",
-        "date_kst": "2026-11-08T09:00:00.000Z",
-        "kst_display": "11월 8일 (일) 오전 9:00",
-        "home": false,
-        "opponent_id": "6077",
-        "opponent_name": "Houston Dynamo FC",
-        "opponent_short": "Houston",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
-        "home_score": 0,
-        "away_score": 1,
+        "match_id": "401933728",
+        "date": "2026-11-24T01:15Z",
+        "date_kst": "2026-11-24T10:15:00.000Z",
+        "kst_display": "11월 24일 (화) 오전 10:15",
+        "home": true,
+        "opponent_id": "18966",
+        "opponent_name": "LAFC",
+        "opponent_short": "LAFC",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+        "home_score": 3,
+        "away_score": 2,
         "result": "W",
-        "venue": "Shell Energy Stadium",
+        "venue": "Energizer Park",
         "round": ""
       },
       "next": {
@@ -1463,9 +1463,9 @@
           "goals_for": 52,
           "goals_against": 40,
           "recent_form": [
-            "W",
             "D",
             "D",
+            "L",
             "L",
             "L"
           ]
