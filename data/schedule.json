@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-24T23:40:31.773Z",
+  "updated_at": "2026-11-25T11:50:26.488Z",
   "schedule": {
     "182": {
       "last": {
@@ -239,8 +239,8 @@
           "goals_against": 43,
           "recent_form": [
             "D",
-            "D",
             "W",
+            "L",
             "L",
             "L"
           ]
@@ -396,19 +396,19 @@
     },
     "191": {
       "last": {
-        "match_id": "761945",
-        "date": "2026-11-08T00:00Z",
-        "date_kst": "2026-11-08T09:00:00.000Z",
-        "kst_display": "11월 8일 (일) 오전 9:00",
-        "home": false,
-        "opponent_id": "17362",
-        "opponent_name": "Minnesota United FC",
-        "opponent_short": "Minnesota",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
-        "home_score": 3,
+        "match_id": "401933738",
+        "date": "2026-11-25T03:00Z",
+        "date_kst": "2026-11-25T12:00:00.000Z",
+        "kst_display": "11월 25일 (수) 오후 12:00",
+        "home": true,
+        "opponent_id": "6077",
+        "opponent_name": "Houston Dynamo FC",
+        "opponent_short": "Houston",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+        "home_score": 2,
         "away_score": 1,
-        "result": "L",
-        "venue": "Allianz Field",
+        "result": "W",
+        "venue": "PayPal Park",
         "round": ""
       },
       "next": {
@@ -543,19 +543,19 @@
     },
     "6077": {
       "last": {
-        "match_id": "761944",
-        "date": "2026-11-08T00:00Z",
-        "date_kst": "2026-11-08T09:00:00.000Z",
-        "kst_display": "11월 8일 (일) 오전 9:00",
-        "home": true,
-        "opponent_id": "21812",
-        "opponent_name": "St. Louis CITY SC",
-        "opponent_short": "St. Louis",
-        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-        "home_score": 0,
+        "match_id": "401933738",
+        "date": "2026-11-25T03:00Z",
+        "date_kst": "2026-11-25T12:00:00.000Z",
+        "kst_display": "11월 25일 (수) 오후 12:00",
+        "home": false,
+        "opponent_id": "191",
+        "opponent_name": "San Jose Earthquakes",
+        "opponent_short": "San Jose",
+        "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "home_score": 2,
         "away_score": 1,
         "result": "L",
-        "venue": "Shell Energy Stadium",
+        "venue": "PayPal Park",
         "round": ""
       },
       "next": {
@@ -728,11 +728,11 @@
           "goals_for": 57,
           "goals_against": 51,
           "recent_form": [
-            "D",
             "L",
             "D",
             "W",
-            "L"
+            "L",
+            "W"
           ]
         }
       }
