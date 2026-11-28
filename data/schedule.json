@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-27T23:03:06.158Z",
+  "updated_at": "2026-11-28T11:00:57.105Z",
   "schedule": {
     "182": {
       "last": {
@@ -53,19 +53,19 @@
     },
     "183": {
       "last": {
-        "match_id": "401933739",
-        "date": "2026-11-21T23:00Z",
-        "date_kst": "2026-11-22T08:00:00.000Z",
-        "kst_display": "11월 22일 (일) 오전 8:00",
-        "home": false,
+        "match_id": "401933727",
+        "date": "2026-11-28T01:00Z",
+        "date_kst": "2026-11-28T10:00:00.000Z",
+        "kst_display": "11월 28일 (토) 오전 10:00",
+        "home": true,
         "opponent_id": "20232",
         "opponent_name": "Inter Miami CF",
         "opponent_short": "Miami",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-        "home_score": 0,
-        "away_score": 3,
+        "home_score": 1,
+        "away_score": 0,
         "result": "W",
-        "venue": "Nu Stadium",
+        "venue": "ScottsMiracle-Gro Field",
         "round": ""
       },
       "next": {
@@ -140,7 +140,7 @@
           "goals_for": 74,
           "goals_against": 34,
           "recent_form": [
-            "L",
+            "W",
             "W",
             "W",
             "W",
@@ -494,19 +494,19 @@
     },
     "4771": {
       "last": {
-        "match_id": "401933729",
-        "date": "2026-11-23T01:30Z",
-        "date_kst": "2026-11-23T10:30:00.000Z",
-        "kst_display": "11월 23일 (월) 오전 10:30",
-        "home": false,
+        "match_id": "401933725",
+        "date": "2026-11-28T03:00Z",
+        "date_kst": "2026-11-28T12:00:00.000Z",
+        "kst_display": "11월 28일 (토) 오후 12:00",
+        "home": true,
         "opponent_id": "9727",
         "opponent_name": "Vancouver Whitecaps",
         "opponent_short": "Vancouver",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
-        "home_score": 2,
-        "away_score": 0,
+        "home_score": 0,
+        "away_score": 1,
         "result": "L",
-        "venue": "BC Place",
+        "venue": "America First Field",
         "round": ""
       },
       "next": {
@@ -777,10 +777,10 @@
           "goals_for": 53,
           "goals_against": 52,
           "recent_form": [
-            "W",
             "L",
             "W",
             "D",
+            "L",
             "L"
           ]
         }
@@ -788,19 +788,19 @@
     },
     "9727": {
       "last": {
-        "match_id": "401933729",
-        "date": "2026-11-23T01:30Z",
-        "date_kst": "2026-11-23T10:30:00.000Z",
-        "kst_display": "11월 23일 (월) 오전 10:30",
-        "home": true,
+        "match_id": "401933725",
+        "date": "2026-11-28T03:00Z",
+        "date_kst": "2026-11-28T12:00:00.000Z",
+        "kst_display": "11월 28일 (토) 오후 12:00",
+        "home": false,
         "opponent_id": "4771",
         "opponent_name": "Real Salt Lake",
         "opponent_short": "Salt Lake",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
-        "home_score": 2,
-        "away_score": 0,
+        "home_score": 0,
+        "away_score": 1,
         "result": "W",
-        "venue": "BC Place",
+        "venue": "America First Field",
         "round": ""
       },
       "next": {
@@ -1071,10 +1071,10 @@
           "goals_for": 80,
           "goals_against": 59,
           "recent_form": [
-            "L",
             "D",
             "W",
             "D",
+            "L",
             "L"
           ]
         }
@@ -1229,19 +1229,19 @@
     },
     "20232": {
       "last": {
-        "match_id": "401933739",
-        "date": "2026-11-21T23:00Z",
-        "date_kst": "2026-11-22T08:00:00.000Z",
-        "kst_display": "11월 22일 (일) 오전 8:00",
-        "home": true,
+        "match_id": "401933727",
+        "date": "2026-11-28T01:00Z",
+        "date_kst": "2026-11-28T10:00:00.000Z",
+        "kst_display": "11월 28일 (토) 오전 10:00",
+        "home": false,
         "opponent_id": "183",
         "opponent_name": "Columbus Crew",
         "opponent_short": "Columbus",
         "opponent_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-        "home_score": 0,
-        "away_score": 3,
+        "home_score": 1,
+        "away_score": 0,
         "result": "L",
-        "venue": "Nu Stadium",
+        "venue": "ScottsMiracle-Gro Field",
         "round": ""
       },
       "next": {
